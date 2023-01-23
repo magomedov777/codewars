@@ -17,6 +17,7 @@ return (a % b) + (b % a);
 return false;
 }};
 
+
 function warnTheSheep(queue) {
   const position = queue.reverse().indexOf('wolf');
 
