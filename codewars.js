@@ -66,7 +66,6 @@ function updateRecords(records, id, prop, value) {
   return records;
 };
 
-
 function testElseIf(val) {
   if (val > 10) {
     return "Greater than 10";
@@ -84,7 +83,6 @@ function removeFirstTwo(list) {
 
 const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const sourceWithoutFirstTwo = removeFirstTwo(source);
-
 const stats = {
   max: 56.78,
   standard_deviation: 4.34,
@@ -95,3 +93,7 @@ const stats = {
 };
 
 const half = ({ max, min }) => (max + min) / 2.0;
+
+//new tasks
+// Jan 2023
+
