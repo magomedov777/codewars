@@ -97,3 +97,6 @@ const half = ({ max, min }) => (max + min) / 2.0;
 //new tasks
 // Jan 2023
 
+function firstNonRepeatingLetter(s) {
+  return s[s.toLowerCase().split('').findIndex(letter => s.toLowerCase().split('').filter(l => l === letter).length === 1 )] || '';
+}
