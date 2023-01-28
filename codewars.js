@@ -114,3 +114,5 @@ function balancedNum(number) {
     : 'Not Balanced';
 }
 
+console.log(balancedNum);
+
