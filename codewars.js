@@ -98,7 +98,6 @@ function firstNonRepeatingLetter(s) {
   return s[s.toLowerCase().split('').findIndex(letter => s.toLowerCase().split('').filter(l => l === letter).length === 1 )] || '';
 }
 
-
 function balancedNum(number) {
   const stringNum = String(number);
   const numbers = Array.from(
@@ -111,7 +110,7 @@ function balancedNum(number) {
     : 'Not Balanced';
 }
 
-console.log(balancedNum);
+
 
 
 
