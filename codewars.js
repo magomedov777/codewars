@@ -148,3 +148,15 @@ function mergeArrays(arr1, arr2) {
   return [...new Set([...arr1, ...arr2].sort((a,b) => a - b))];
 };
 
+function maps(x){
+  return x.map(x => x * 2); 
+};
+
+String.prototype.isUpperCase = function() {
+  return this.toString() === this.toUpperCase();
+};
+
+let saleHotdogs = n => n * (n < 5 ? 100 : (n >= 5 && n < 10 ? 95 : 90));
+
+
+
