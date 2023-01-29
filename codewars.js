@@ -131,7 +131,12 @@ function whatday(num) {
    return "Saturday"
  };
 
+ function century(year) {
+  return Math.ceil(year / 100)
+ 
+ };
 
-
-
+ function typeOfSum(a, b) {
+  return typeof(a + b)
+};
 
