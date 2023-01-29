@@ -140,3 +140,7 @@ function whatday(num) {
   return typeof(a + b)
 };
 
+function contamination(text, char){
+  return char.repeat(text.length)
+};
+
