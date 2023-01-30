@@ -174,6 +174,22 @@ if(operation === "+"){
     return value1 / value2;}
 };
 
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  if(distanceToPump <= mpg * fuelLeft){
+    return true;
+  }else if(distanceToPump != mpg * fuelLeft){
+    return false;
+  }
+};
+
+function multipleOfIndex(array){
+  return array.filter((element, index) => element % index == 0)
+};
+
+function check(a,x){
+  return a.includes(x)
+};
+
 
 
 
