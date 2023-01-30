@@ -160,7 +160,21 @@ let saleHotdogs = n => n * (n < 5 ? 100 : (n >= 5 && n < 10 ? 95 : 90));
 
 function logs(x , a, b){
 return Math.log(a * b) / Math.log(x);
-}
+};
+
+function basicOp(operation, value1, value2)
+{
+if(operation === "+"){
+   return value1 + value2
+}else if(operation === "-"){
+    return value1 - value2
+}else if(operation === "*"){
+    return value1 * value2
+}else if(operation === "/"){
+    return value1 / value2;}
+};
+
+
 
 
 
