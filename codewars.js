@@ -112,7 +112,7 @@ function balancedNum(number) {
 
 
 
-function whatday(num) {
+function whatday(num) 
   if(num < 1 || num > 7){
     return "Wrong, please enter a number between 1 and 7"
   }else if(num === 1){
