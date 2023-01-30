@@ -9,7 +9,6 @@ function evalObject(value){
     case'^': return Math.pow(value.a, value.b);
   }};
   
-//New kata
 function myFirstKata(a,b) {
 if (typeof(a) === 'number' && typeof(b) === 'number') {
 return (a % b) + (b % a);
@@ -157,6 +156,9 @@ String.prototype.isUpperCase = function() {
 };
 
 let saleHotdogs = n => n * (n < 5 ? 100 : (n >= 5 && n < 10 ? 95 : 90));
+
+
+
 
 
 
