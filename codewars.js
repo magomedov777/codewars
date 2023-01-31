@@ -190,9 +190,9 @@ function check(a,x){
   return a.includes(x)
 };
 
-const taskNew = (arr) => {
-  console.log(arr.length())
-};
+var joinStrings = (string1, string2) => `${string1} ${string2}`;
+
+
 
 
 
