@@ -190,7 +190,10 @@ function check(a,x){
   return a.includes(x)
 };
 
+
 var joinStrings = (string1, string2) => `${string1} ${string2}`;
+
+
 
 
 
