@@ -190,7 +190,10 @@ function check(a,x){
   return a.includes(x)
 };
 
-const taskNew = () => {};
+const taskNew = () => {
+  console.log()
+};
+
 
 
 
