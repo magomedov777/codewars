@@ -316,6 +316,14 @@ function grow(x){
       return arr.slice(0, n);
     }};
 
+    function monkeyCount(n) {
+      return Array.from({length: n},(_,index) => index + 1)
+    };
+
+    getAverage = marks => Math.floor(marks.reduce((a, b) => a + b) / marks.length);
+
+    makeUpperCase = str => str.toUpperCase();
+
     
 
 
