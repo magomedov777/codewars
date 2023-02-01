@@ -252,6 +252,12 @@ const evenOrOdd = (number) => number % 2 === 0 ? "Even" : "Odd";
 
 const solution = (start, finish, distance = finish - start) => Math.floor(distance / 3) + distance % 3; 
 
+function multiplyAll(arr) {
+  return function(num){
+    return arr.map(e => e * num)
+  }
+};
+
 
 
 
