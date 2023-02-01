@@ -324,7 +324,11 @@ function grow(x){
 
     makeUpperCase = str => str.toUpperCase();
 
-    
+    repeatStr = (n, s) => s.repeat(n);
+
+    const removeExclamationMarks = s => s.replace(/\!/g, '');
+
+    billboard = (name, price = 30) => [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
 
 
 
