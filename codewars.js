@@ -287,8 +287,36 @@ function grow(x){
 
    const stringToArray = (string) => string.split(' ');
 
-   
+   function fakeBin(x){
+    let bin = "";
+     for(const a of x){
+      if(parseInt(a) < 5){
+        bin += "0";
+        }else{
+          bin += "1";
+        }
+       }
+      return bin
+  };
 
+  function check(a, x) {
+    return a.includes(x);
+  };
+
+  const check = (a, x) => a.includes(x);
+
+  function distinct(a) {
+    return [...new Set(a)];
+  };
+
+  function first (arr, n = 1){
+    if(n == 0){
+      return [];
+    }else if(n > 0){
+      return arr.slice(0, n);
+    }};
+
+    
 
 
 
