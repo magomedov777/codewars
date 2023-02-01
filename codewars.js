@@ -257,7 +257,6 @@ function ensureQuestion(s) {
   }
 };
 
-console.log(ensureQuestion);
 
 
 
