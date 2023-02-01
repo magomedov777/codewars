@@ -258,7 +258,36 @@ function multiplyAll(arr) {
   }
 };
 
+function toCsvText(array) {
+  return array.join("\n");
+};
 
+function invert(array) {
+  return array.map(x => -x)
+};
+
+function grow(x){
+  return x.reduce((a,b) => a * b)
+ };
+
+ function howMuchILoveYou(nbPetals) {
+  return ["I love you", "a little", "a lot", "passionately", "madly", "not at all"][(nbPetals - 1) %6]
+  };
+
+  function well(x){
+    let good = 0;
+     for (const idea of x){
+       if(idea === "good"){
+         good += 1;
+       }}
+     return good === 0 ? "Fail!" : good > 2 ? "I smell a series!" : "Publish!"
+   };
+
+   sumMix = x => x.reduce((a,b) => +b + a, 0);
+
+   const stringToArray = (string) => string.split(' ');
+
+   
 
 
 
