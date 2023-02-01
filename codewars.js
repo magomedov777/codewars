@@ -248,6 +248,8 @@ function ensureQuestion(s) {
 
 const largest = (n, array) => array.sort((a,b) => a - b).slice(array.length - n);
 
+const evenOrOdd = (number) => number % 2 === 0 ? "Even" : "Odd";
+
 
 
 
