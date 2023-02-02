@@ -388,6 +388,18 @@ function Warrior(n){
     return "Hi! my name's "+this.name();
 };
 
+function sumOfDifferences(arr) {
+  if(arr.length > 1){
+    return Math.max(...arr) - Math.min(...arr)
+  }else{
+    return 0
+  }
+};
+
+function twoSort(s) {
+  return s.sort()[0].split('').join("***")
+};
+
 
 
 
