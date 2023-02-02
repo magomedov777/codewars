@@ -400,6 +400,31 @@ function twoSort(s) {
   return s.sort()[0].split('').join("***")
 };
 
+function gooseFilter (birds) {
+var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter(b => !geese.includes(b))
+};
+
+function squareSum(numbers){
+  return numbers.map(x => x * x).reduce((a,b) => a + b, 0)
+};
+
+function smash (words) {
+  return words.join(' ')
+};
+
+smash = words => words.join(' ');
+
+function sum (numbers) {
+  return numbers.reduce((a,b) => a + b, 0)
+};
+
+sum = numbers => numbers.reduce((a,b) => a + b, 0);
+
+countSheeps = arrayOfSheep => arrayOfSheep.filter(Boolean).length;
+
+digitize = n => String(n).split('').reverse().map(Number);
+
 
 
 
