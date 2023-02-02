@@ -341,7 +341,20 @@ function grow(x){
 
     removeEveryOther = arr => arr.filter((_, index) => index % 2 == 0);
 
-    
+    differenceInAges = ages => [Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)];
+
+    function all( arr, fun ){
+      return arr.every(fun)
+    };
+
+    function positiveSum (arr){
+      let sum = 0;
+       for(let i = 0; i < arr.length; i++)
+        if(arr[i] >= 0) sum += arr[i];
+         return sum;
+     };
+
+     
 
 
 
