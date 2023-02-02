@@ -354,6 +354,8 @@ function grow(x){
          return sum;
      };
 
+     printArray = array => array.join();
+
      
 
 
