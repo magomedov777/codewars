@@ -439,6 +439,13 @@ function divisibleBy(numbers, divisor){
 
   index = (array, n) => array[n] ** n || -1;
 
+  function findMultiples(integer, limit) {
+    let result = [];
+    for(let i = integer; i <= limit; i += integer)
+      result.push(i)
+    return result
+  };
+
   
 
 
