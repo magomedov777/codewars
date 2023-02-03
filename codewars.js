@@ -431,8 +431,11 @@ function findAverage (nums) {
   return nums.reduce((a,b) => a + b) / nums.length
 };
 
+function divisibleBy(numbers, divisor){
+  return numbers.filter(a => a % divisor == 0)
+  };
 
-
+  
 
 
 
