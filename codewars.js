@@ -448,5 +448,3 @@ function findAverage (nums) {
 
 
 
-
-
