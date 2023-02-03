@@ -427,7 +427,9 @@ digitize = n => String(n).split('').reverse().map(Number);
 
 ArrowFunc = arr => arr.map(x => String.fromCharCode(x)).join('');
 
-
+function findAverage (nums) {
+  return nums.reduce((a,b) => a + b) / nums.length
+};
 
 
 
