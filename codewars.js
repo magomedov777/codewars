@@ -437,6 +437,8 @@ function divisibleBy(numbers, divisor){
 
   const isVow = a => a.map(x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x);
 
+  index = (array, n) => array[n] ** n || -1;
+
   
 
 
