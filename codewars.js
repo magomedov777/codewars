@@ -449,8 +449,6 @@ function divisibleBy(numbers, divisor){
   
 
 
-  
-
 
 
 
