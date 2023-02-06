@@ -445,6 +445,8 @@ function divisibleBy(numbers, divisor){
       result.push(i)
     return result
   };
+//////new
+
 
 
 
