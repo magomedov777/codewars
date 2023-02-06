@@ -447,6 +447,10 @@ function divisibleBy(numbers, divisor){
   };
 //////new
 
+///codewars js
+
+
+
 
 
 
