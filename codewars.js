@@ -461,6 +461,8 @@ function solution(input, markers) {
   return abc.join("\n");
 };
 
+const capitalizeWord = word => word[0].toUpperCase() + word.slice(1);
+
 
 
 
