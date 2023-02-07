@@ -445,10 +445,21 @@ function divisibleBy(numbers, divisor){
       result.push(i)
     return result
   };
-//////new
 
-///codewars js
 
+function solution(input, markers) {
+  let abc = input.split("\n")
+  for(let i in markers){
+    for(let j in abc){
+      let stl = null;
+      let def = abc[j].indexOf(markers[i]);
+      if(def >= 0){
+        abc[j] = abc[j].substring(0, def).trim();
+      }
+    }
+  }
+  return abc.join("\n");
+};
 
 
 
