@@ -483,8 +483,13 @@ function orderWeight(strng) {
 };
 
 
-// next task codewars
-// 5kyu complete
+function alternate(n, firstValue, secondValue){
+  let arr = []
+  for(let i = 0; i < n; i++){
+    arr.push(i % 2 === 0 ? firstValue : secondValue)
+  }
+  return arr;
+};
 
 
 
