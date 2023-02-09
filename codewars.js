@@ -483,8 +483,8 @@ function orderWeight(strng) {
 };
 
 
-
-
+// next task codewars
+// 5kyu complete
 
 
 
