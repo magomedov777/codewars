@@ -104,8 +104,6 @@ function balancedNum(number) {
     : 'Not Balanced';
 };
 
-
-
 function whatday(num) 
   if(num < 1 || num > 7){
     return "Wrong, please enter a number between 1 and 7"
