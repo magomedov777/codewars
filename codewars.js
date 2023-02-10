@@ -1,13 +1,4 @@
-//First kata
-function evalObject(value){
-  switch(value.operation){
-    case'+': return value.a + value.b;
-    case'-': return value.a - value.b;
-    case'/': return value.a / value.b;
-    case'*': return value.a * value.b;
-    case'%': return value.a % value.b;
-    case'^': return Math.pow(value.a, value.b);
-  }};
+
   
 function myFirstKata(a,b) {
 if (typeof(a) === 'number' && typeof(b) === 'number') {
@@ -524,7 +515,7 @@ function correctTail(body, tail){
 
 
 
-  
+
 
 
 
