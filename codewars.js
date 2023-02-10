@@ -556,6 +556,8 @@ function correctTail(body, tail){
 
   toBinary = n => +n.toString(2);
 
+  const hero = (bullets, dragons) => bullets / 2 >= dragons;
+
   
 
 
