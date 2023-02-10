@@ -562,6 +562,9 @@ function correctTail(body, tail){
     return x ** y;
   };
 
+  power = (x,y) => x ** y;
+
+
   
 
 
