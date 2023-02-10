@@ -334,8 +334,6 @@ function grow(x){
 
     billboard = (name, price = 30) => [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
 
-    //codewars 7 ------------------------------------------
-
     function countBy(x, n) {
       let z = [];
       for(let i = 1; i <= n; i++)
