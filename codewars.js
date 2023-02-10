@@ -541,7 +541,16 @@ function correctTail(body, tail){
     ];
   }
 
-  
+  function multiTable(number) {
+    let result = "";
+       for(let i = 1; i <= 10; i++){
+         let a = i * number;
+     result += `${i} * ${number} = ${a}\n`;
+     }
+     return result.trim('\n');
+   };
+
+   
 
 
 
