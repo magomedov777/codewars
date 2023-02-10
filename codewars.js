@@ -554,6 +554,8 @@ function correctTail(body, tail){
     return +n.toString(2);
   };
 
+  toBinary = n => +n.toString(2);
+
   
 
 
