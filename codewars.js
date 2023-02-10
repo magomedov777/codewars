@@ -550,7 +550,11 @@ function correctTail(body, tail){
      return result.trim('\n');
    };
 
-   
+   function toBinary(n){
+    return +n.toString(2);
+  };
+
+  
 
 
 
