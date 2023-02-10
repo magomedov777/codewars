@@ -558,6 +558,10 @@ function correctTail(body, tail){
 
   const hero = (bullets, dragons) => bullets / 2 >= dragons;
 
+  function power(x,y){
+    return x ** y;
+  };
+
   
 
 
