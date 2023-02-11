@@ -571,7 +571,6 @@ function strCount(str, letter){
 };
 
 
-strCount = (str, letter) => str.split(letter).length - 1;
 
 
 strCount = (str, letter) => str.split('').filter(a => a == letter).length;
