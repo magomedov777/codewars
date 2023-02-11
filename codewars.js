@@ -588,6 +588,10 @@ parseF = s => isNaN(parseFloat(s)) ? null : parseFloat(s);
 
 iceBrickVolume = (radius, bottleLength, rimLength) =>  (bottleLength - rimLength) * 2 * radius * radius;
 
+function otherAngle(a, b) {
+  return 180 - (a + b);
+};
+
 
 
 
