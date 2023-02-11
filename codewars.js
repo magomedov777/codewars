@@ -584,6 +584,8 @@ function updateLight(current) {
   })[current]
 };
 
+parseF = s => isNaN(parseFloat(s)) ? null : parseFloat(s);
+
 
 
 
