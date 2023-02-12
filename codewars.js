@@ -1,5 +1,5 @@
 //native js training, codewars ------------------------------------------------------------
-
+//codewars for IT-INCUBATOR______________________________________________________________
 
 function evalObject(value){
   switch(value.operation){
