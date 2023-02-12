@@ -21,9 +21,6 @@ return false;
 }};
 
 
-//----------------------------------------------------
-
-
 function warnTheSheep(queue) {
   const position = queue.reverse().indexOf('wolf');
 
@@ -530,7 +527,7 @@ function correctTail(body, tail){
       return (l + w)*2
     
   };
-  
+
 
   let humanYearsCatYearsDogYears = function(humanYears) {
     if(humanYears == 1) return [1, 15, 15]
