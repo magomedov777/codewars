@@ -520,7 +520,16 @@ function correctTail(body, tail){
           dogs[2]
   };
 
-  
+  weatherInfo = temp => `${c = (temp - 32) * 5 / 9} is ${c > 0 ? 'above ' : ''}freezing temperature`;
+
+ 
+  const areaOrPerimeter = function(l , w) {
+    if(l == w) {
+      return l * w
+    }
+      return (l + w)*2
+    
+  };
   
 
   let humanYearsCatYearsDogYears = function(humanYears) {
