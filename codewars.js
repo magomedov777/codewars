@@ -9,9 +9,6 @@ function evalObject(value){
     case'^': return Math.pow(value.a, value.b);
   }};
 
-
-  //------------------------------------------------
-
   
 function myFirstKata(a,b) {
 if (typeof(a) === 'number' && typeof(b) === 'number') {
