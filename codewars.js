@@ -622,6 +622,8 @@ function solution(str){
 
 solution = str => [...str].reverse().join("");
 
+simpleMultiplication = number => number % 2===0 ? number * 8 : number * 9;
+
 
 
 
