@@ -616,6 +616,12 @@ function Hero (name) {
 };
 
 
+function solution(str){
+  return str = [...str].reverse().join("")
+};
+
+solution = str => [...str].reverse().join("");
+
 
 
 
