@@ -620,14 +620,7 @@ function solution(str){
   return str = [...str].reverse().join("")
 };
 
-solution = str => [...str].reverse().join("");
-
-simpleMultiplication = number => number % 2===0 ? number * 8 : number * 9;
-
-//new level ========================================================>
-
-
-
+   
 
 
 
