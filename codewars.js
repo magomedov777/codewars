@@ -663,7 +663,8 @@ function switchItUp(number){
    return "Eight"
  }else if(number == 9){
    return "Nine"
- };
+ }};
+ 
 
  function twoHighest(arr) {
   return [...new Set(arr.sort((a,b) => b - a))].slice(0,2)
