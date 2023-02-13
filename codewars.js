@@ -625,6 +625,13 @@ solution = str => [...str].reverse().join("");
 
 simpleMultiplication = number => number % 2===0 ? number * 8 : number * 9;
 
+function position (letters){
+const alphbt = ' abcdefghijklmnopqrstuvwxyz';
+  return 'Position of alphabet: ' + [...alphbt].indexOf(letters)
+ };
+
+position = letters => 'Position of alphabet: ' + [...alphbt].indexOf(letters)
+const alphbt = ' abcdefghijklmnopqrstuvwxyz';
 
 
 
