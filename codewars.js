@@ -778,7 +778,14 @@ function unusualFive() {
    return arr.length;
  };
 
- 
+ function numberToPower(number, power){
+  if(power > 0){
+    return number * numberToPower(number, power - 1)
+  }
+  return 1
+};
+
+
 
  
 
