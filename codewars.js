@@ -752,6 +752,12 @@ function lovefunc(flower1, flower2){
   return false
 };
 
+function addFive(num) {
+  return num + 5
+};
+
+addFive = num => num + 5;
+
 
 
  
