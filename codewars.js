@@ -745,6 +745,13 @@ function isDivisible(n, x, y) {
 
 sumStr = (a,b) => (+a + +b).toString();
 
+function lovefunc(flower1, flower2){
+  if(flower1 % 2 != flower2 % 2){
+    return true
+  }
+  return false
+};
+
 
 
  
