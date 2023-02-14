@@ -805,7 +805,16 @@ function amIWilson (p){
   return [5, 13, 563].indexOf(p) > -1
   };
 
-  
+  function bonusTime(salary, bonus) {
+    if(bonus === true){
+     return `£${salary * 10}`
+   }
+     return `£${salary}`
+     };
+   
+   bonusTime = (salary, bonus) => bonus === true ? `£${salary * 10}` : `£${salary}`;
+
+   
 
  
 
