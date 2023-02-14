@@ -677,6 +677,8 @@ function remainder(n, m) {
   return n > m ? n % m : m % n;
 };
 
+makeNegative = num => num <= 0 ? num : num * -1;
+
 
 
  
