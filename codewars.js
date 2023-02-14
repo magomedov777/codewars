@@ -732,6 +732,10 @@ function problem (x){
       return "Error"
 };
 
+function sayHello( name, city, state ) {
+  return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
+};
+
 
 
  
