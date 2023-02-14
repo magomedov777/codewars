@@ -688,6 +688,12 @@ function boolToWord( bool ){
 
 boolToWord = bool => bool === true ? "Yes" : "No";
 
+function numberToString(num) {
+  return num.toString()
+};
+
+numberToString = num => num.toString();
+
 
 
  
