@@ -792,6 +792,8 @@ function testEven(n) {
  return false
 };
 
+noSpace = x => x.replace(/ /g, '');
+
 
 
  
