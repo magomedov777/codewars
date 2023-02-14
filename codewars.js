@@ -794,6 +794,13 @@ function testEven(n) {
 
 noSpace = x => x.replace(/ /g, '');
 
+function mouthSize(animal) {
+  if(animal === 'alligator' || animal === 'ALLIGATOR'){
+    return 'small'
+  }
+  return 'wide'
+};
+
 
 
  
