@@ -814,7 +814,11 @@ function amIWilson (p){
    
    bonusTime = (salary, bonus) => bonus === true ? `£${salary * 10}` : `£${salary}`;
 
-   
+   function reverseList(list) {
+    return list.reverse()
+  };
+
+  
 
  
 
