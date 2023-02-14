@@ -743,6 +743,8 @@ function isDivisible(n, x, y) {
   return false
 };
 
+sumStr = (a,b) => (+a + +b).toString();
+
 
 
  
