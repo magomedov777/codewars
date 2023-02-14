@@ -758,6 +758,15 @@ function addFive(num) {
 
 addFive = num => num + 5;
 
+function include(arr, item){
+  if(arr.includes(item)){
+    return true
+  }
+  return false
+};
+
+include = (arr, item) => arr.includes(item) ? true : false;
+
 
 
  
