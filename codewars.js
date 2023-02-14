@@ -771,6 +771,8 @@ abbrevName = name => name.toUpperCase().split(' ').map(a => a[0]).join(`.`);
 
 oddCount = n => n % 2 === 0 ? n / 2 : Math.floor(n / 2);
 
+removeChar = str => str.slice(1, -1);
+
 
 
  
