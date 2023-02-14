@@ -679,6 +679,15 @@ function remainder(n, m) {
 
 makeNegative = num => num <= 0 ? num : num * -1;
 
+function boolToWord( bool ){
+  if(bool === true){
+    return "Yes"
+  }
+  return "No"
+}
+
+boolToWord = bool => bool === true ? "Yes" : "No";
+
 
 
  
