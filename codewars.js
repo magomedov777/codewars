@@ -817,6 +817,8 @@ function amIWilson (p){
     return s == parseFloat(s)
    };
 
+   isReallyNaN = val => Number.isNaN(val) ? true : false;
+
    
 
 
