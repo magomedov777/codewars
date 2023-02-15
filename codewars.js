@@ -341,14 +341,14 @@ function check(a, x) {
       return arr.every(fun)
     };
 
-    function positiveSum (arr){
+function positiveSum (arr){
       let sum = 0;
        for(let i = 0; i < arr.length; i++)
         if(arr[i] >= 0) sum += arr[i];
          return sum;
      };
 
-     printArray = array => array.join();
+printArray = array => array.join();
 
      function stairsIn20(s){
   return 20 * s.reduce((a, b) => a + b.reduce((c,d) => c + d, 0) ,0) 
@@ -369,7 +369,6 @@ function createArray(number){
 }
   return newArray;
 };
-
 
 function Warrior(n){
   let name = n;  
