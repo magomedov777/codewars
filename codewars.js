@@ -1,4 +1,4 @@
-//codewars for IT-INCUBATOR______________________________________________________________
+//codewars for IT-INCUBATOR______________________________________________________________>>>
 
 function evalObject(value){
   switch(value.operation){
