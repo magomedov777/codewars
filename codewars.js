@@ -1,6 +1,5 @@
 //native js training, codewars ------------------------------------------------------------
 //codewars for IT-INCUBATOR______________________________________________________________
-//January 22, 2023========================================================>>>>>>>Road to 1 kyu
 
 function evalObject(value){
   switch(value.operation){
@@ -818,7 +817,7 @@ function amIWilson (p){
     return list.reverse()
   };
 
-  
+
 
   
 
