@@ -270,20 +270,20 @@ function grow(x){
   return ["I love you", "a little", "a lot", "passionately", "madly", "not at all"][(nbPetals - 1) %6]
   };
 
-  function well(x){
+function well(x){
     let good = 0;
      for (const idea of x){
        if(idea === "good"){
          good += 1;
        }}
      return good === 0 ? "Fail!" : good > 2 ? "I smell a series!" : "Publish!"
-   };
+  };
 
-   sumMix = x => x.reduce((a,b) => +b + a, 0);
+sumMix = x => x.reduce((a,b) => +b + a, 0);
 
-   const stringToArray = (string) => string.split(' ');
+const stringToArray = (string) => string.split(' ');
 
-   function fakeBin(x){
+function fakeBin(x){
     let bin = "";
      for(const a of x){
       if(parseInt(a) < 5){
@@ -295,7 +295,7 @@ function grow(x){
       return bin
   };
 
-  function check(a, x) {
+function check(a, x) {
     return a.includes(x);
   };
 
