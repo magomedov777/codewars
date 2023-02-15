@@ -220,7 +220,6 @@ function typeValidation(variable, type) {
   return typeof variable === type; 
 };
 
-
 function likes(names) {
   if(names.length == 0){
     return "no one likes this";
