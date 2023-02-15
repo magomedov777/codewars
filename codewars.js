@@ -813,6 +813,12 @@ function amIWilson (p){
     return list.reverse()
   };
 
+  function isDigit(s) {
+    return s == parseFloat(s)
+   };
+
+   
+
 
 
   
