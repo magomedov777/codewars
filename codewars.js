@@ -867,6 +867,8 @@ add = (a, b) => a == b ? true : false;
 
 remove = string => string.replace(/!+$/, '');
 
+const squareOrSquareRoot = (array) => array.map(el => Math.sqrt(el) % 1 ? el * el : Math.sqrt(el));
+
 
 
 
