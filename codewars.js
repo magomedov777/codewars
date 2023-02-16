@@ -855,6 +855,8 @@ function isPythagoreanTriple (integers){
   return Math.floor(time * 0.5)
 };
 
+litres = time => Math.floor(time * 0.5);
+
 
 
 
