@@ -846,6 +846,12 @@ const cubeChecker = function(volume, side){
   return false
 };
 
+function isPythagoreanTriple (integers){
+  let [x, y, z] = integers.sort((x,y) => x - y) 
+  return x ** 2 + y ** 2 == z ** 2
+  };
+
+  
 
 
 
