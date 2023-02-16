@@ -826,6 +826,9 @@ function amIWilson (p){
     return sum[n] || 0
    };
 
+Math.round = number => number - parseInt(number) >= 0.5 ? parseInt(number) + 1 : parseInt(number);
+
+
 
 
 
