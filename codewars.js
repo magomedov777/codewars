@@ -839,6 +839,12 @@ derive = (coefficient,exponent) => (coefficient * exponent) + "x^" + (exponent -
 
 nthEven = n => (n - 1) * 2;
 
+const cubeChecker = function(volume, side){
+  if(volume / side ** 2 == side && side > 0){
+    return true
+  }
+  return false
+};
 
 
 
