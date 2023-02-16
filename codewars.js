@@ -865,6 +865,8 @@ remove = string => string.replace(/!$/, "");
 
 add = (a, b) => a == b ? true : false;
 
+remove = string => string.replace(/!+$/, '');
+
 
 
 
