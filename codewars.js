@@ -857,6 +857,12 @@ function isPythagoreanTriple (integers){
 
 litres = time => Math.floor(time * 0.5);
 
+function remove (string) {
+  return string.replace(/!$/, "")
+};
+
+remove = string => string.replace(/!$/, "");
+
 
 
 
