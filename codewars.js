@@ -829,6 +829,10 @@ Math.ceil = number => parseInt(number) === number ? number : parseInt(number) + 
 
 Math.floor = number => parseInt(number);
 
+squareSum = numbers => numbers.map(a => a * a).reduce((prev, curr) => prev + curr, 0);
+
+
+
 
 
 
