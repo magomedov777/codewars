@@ -821,16 +821,9 @@ function amIWilson (p){
 
    hello = name => !name ? 'Hello, World!' : `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`;
 
-   function fourSeven(n){
-    const sum ={4 : 7, 7 : 4}
-    return sum[n] || 0
-   };
+  
 
-Math.round = number => number - parseInt(number) >= 0.5 ? parseInt(number) + 1 : parseInt(number);
 
-Math.ceil = number => parseInt(number) === number ? number : parseInt(number) + 1; 
-
-Math.floor = number => parseInt(number);
 
 
 
