@@ -660,11 +660,9 @@ function switchItUp(number){
    return "Nine"
  }};
  
-
- function twoHighest(arr) {
+function twoHighest(arr) {
   return [...new Set(arr.sort((a,b) => b - a))].slice(0,2)
  };
-
 
 remainder = (n, m) => n > m ? n % m : m % n;
 
@@ -831,6 +829,8 @@ Math.round = number => number - parseInt(number) >= 0.5 ? parseInt(number) + 1 :
 Math.ceil = number => parseInt(number) === number ? number : parseInt(number) + 1; 
 
 Math.floor = number => parseInt(number);
+
+
 
 
 
