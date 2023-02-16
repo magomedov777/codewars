@@ -851,7 +851,11 @@ function isPythagoreanTriple (integers){
   return x ** 2 + y ** 2 == z ** 2
   };
 
-  
+  function litres(time) {
+  return Math.floor(time * 0.5)
+};
+
+
 
 
 
