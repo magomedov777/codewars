@@ -837,6 +837,8 @@ function nearestSq(n){
 
 derive = (coefficient,exponent) => (coefficient * exponent) + "x^" + (exponent - 1);
 
+nthEven = n => (n - 1) * 2;
+
 
 
 
