@@ -884,6 +884,8 @@ binToDec = bin => parseInt(bin, 2);
 
 squareArea = (A) => Math.pow(2 * A / Math.PI , 2);
 
+opposite = number => number ? -number : +number;
+
 
 
 
