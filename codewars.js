@@ -542,11 +542,11 @@ function correctTail(body, tail){
      return result.trim('\n');
    };
 
-   function toBinary(n){
+function toBinary(n){
     return +n.toString(2);
   };
 
-  toBinary = n => +n.toString(2);
+toBinary = n => +n.toString(2);
 
   const hero = (bullets, dragons) => bullets / 2 >= dragons;
 
