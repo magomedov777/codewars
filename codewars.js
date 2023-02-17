@@ -593,7 +593,6 @@ function isValid (formula) {
       (formula.includes(7) || formula.includes(8)) 
       )};
 
-
 function distanceBetweenPoints(a, b) {
     return Math.hypot(a.x - b.x, a.y - b.y);
 };
