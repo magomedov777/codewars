@@ -522,8 +522,7 @@ function correctTail(body, tail){
     
   };
 
-
-  let humanYearsCatYearsDogYears = function(humanYears) {
+let humanYearsCatYearsDogYears = function(humanYears) {
     if(humanYears == 1) return [1, 15, 15]
     if(humanYears == 2) return [2, 24, 24]
     return [
@@ -533,7 +532,7 @@ function correctTail(body, tail){
     ];
   }
 
-  function multiTable(number) {
+function multiTable(number) {
     let result = "";
        for(let i = 1; i <= 10; i++){
          let a = i * number;
