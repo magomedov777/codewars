@@ -475,7 +475,6 @@ function orderWeight(strng) {
   return strng.split(' ').sort(add).join(' ');
 };
 
-
 function alternate(n, firstValue, secondValue){
   let arr = []
   for(let i = 0; i < n; i++){
@@ -489,8 +488,7 @@ function rainAmount(mm){
        return "You need to give your plant " + (40 - mm) + "mm of water"
   } else {
        return "Your plant has had more than enough water for today!"
-  }
-};
+  }};
 
 function multiply(number){
   return number * 5 ** String(Math.abs(number)).length
@@ -500,8 +498,7 @@ function correctTail(body, tail){
   return body[body.length - 1] == tail;
  };
 
-
- function howManyDalmatians(number){
+function howManyDalmatians(number){
   let dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
   return (number <= 10) ? dogs[0] :
          (number <= 50) ? dogs[1] : 
