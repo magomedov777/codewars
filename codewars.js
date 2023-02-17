@@ -428,17 +428,16 @@ function divisibleBy(numbers, divisor){
   return numbers.filter(a => a % divisor == 0)
   };
 
-  const isVow = a => a.map(x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x);
+const isVow = a => a.map(x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x);
 
-  index = (array, n) => array[n] ** n || -1;
+index = (array, n) => array[n] ** n || -1;
 
-  function findMultiples(integer, limit) {
+function findMultiples(integer, limit) {
     let result = [];
     for(let i = integer; i <= limit; i += integer)
       result.push(i)
     return result
   };
-
 
 function solution(input, markers) {
   let abc = input.split("\n")
