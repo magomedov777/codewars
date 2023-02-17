@@ -882,6 +882,8 @@ function binToDec(bin){
 
 binToDec = bin => parseInt(bin, 2);
 
+squareArea = (A) => Math.pow(2 * A / Math.PI , 2);
+
 
 
 
