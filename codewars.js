@@ -554,7 +554,7 @@ function correctTail(body, tail){
     return x ** y;
   };
 
-  power = (x,y) => x ** y;
+power = (x,y) => x ** y;
 
 usdcny = usd => `${(usd * 6.75).toFixed(2)} Chinese Yuan`;
 
