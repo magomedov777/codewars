@@ -876,6 +876,12 @@ function integrate(coefficient, exponent) {
   return coefficient / (exponent + 1) + 'x^' + (exponent + 1)
 };
 
+function binToDec(bin){
+  return parseInt(bin, 2)
+};
+
+binToDec = bin => parseInt(bin, 2);
+
 
 
 
