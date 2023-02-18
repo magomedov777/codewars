@@ -337,7 +337,7 @@ function check(a, x) {
 
     differenceInAges = ages => [Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)];
 
-    function all( arr, fun ){
+function all( arr, fun ){
       return arr.every(fun)
     };
 
