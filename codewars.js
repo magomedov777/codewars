@@ -143,7 +143,6 @@ String.prototype.isUpperCase = function() {
 
 let saleHotdogs = n => n * (n < 5 ? 100 : (n >= 5 && n < 10 ? 95 : 90));
 
-
 function logs(x , a, b){
 return Math.log(a * b) / Math.log(x);
 };
@@ -299,7 +298,7 @@ function check(a, x) {
     return a.includes(x);
   };
 
-  const check = (a, x) => a.includes(x);
+const check = (a, x) => a.includes(x);
 
 function distinct(a) {
     return [...new Set(a)];
