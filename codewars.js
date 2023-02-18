@@ -914,6 +914,8 @@ function none(arr, fun){
   return !arr.some(fun)
 };
 
+stringToNumber = str => Number(str);
+
 
 
 
