@@ -882,6 +882,13 @@ squareArea = (A) => Math.pow(2 * A / Math.PI , 2);
 
 opposite = number => number ? -number : +number;
 
+function reverseWords(str){
+  return str.split(' ').reverse().join(' ')
+};
+
+reverseWords = str => str.split(' ').reverse().join(' ');
+
+
 
 
 
