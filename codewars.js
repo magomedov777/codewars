@@ -895,6 +895,8 @@ function _if(bool, func1, func2) {
     return func2()
   };
 
+  past = (h, m, s) => (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000);
+
   
 
 
