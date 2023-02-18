@@ -920,6 +920,10 @@ isPalindrome = x => x.toLowerCase() == x.toLowerCase().split('').reverse().join(
 
 solution = (a, b) => a.length < b.length ? a + b + a : b + a + b;
 
+function hexToDec(hexString){
+  return parseInt(hexString, 16)
+};
+
 
 
 
