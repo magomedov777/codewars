@@ -118,7 +118,6 @@ function whatday(num)
 
  function century(year) {
   return Math.ceil(year / 100)
- 
  };
 
  function typeOfSum(a, b) {
