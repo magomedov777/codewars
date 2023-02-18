@@ -301,26 +301,26 @@ function check(a, x) {
 
   const check = (a, x) => a.includes(x);
 
-  function distinct(a) {
+function distinct(a) {
     return [...new Set(a)];
   };
 
-  function first (arr, n = 1){
+function first (arr, n = 1){
     if(n == 0){
       return [];
     }else if(n > 0){
       return arr.slice(0, n);
     }};
 
-    function monkeyCount(n) {
+function monkeyCount(n) {
       return Array.from({length: n},(_,index) => index + 1)
     };
 
-    getAverage = marks => Math.floor(marks.reduce((a, b) => a + b) / marks.length);
+getAverage = marks => Math.floor(marks.reduce((a, b) => a + b) / marks.length);
 
-    makeUpperCase = str => str.toUpperCase();
+makeUpperCase = str => str.toUpperCase();
 
-    repeatStr = (n, s) => s.repeat(n);
+repeatStr = (n, s) => s.repeat(n);
 
 const removeExclamationMarks = s => s.replace(/\!/g, '');
 
