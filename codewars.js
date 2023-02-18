@@ -322,11 +322,11 @@ function check(a, x) {
 
     repeatStr = (n, s) => s.repeat(n);
 
-    const removeExclamationMarks = s => s.replace(/\!/g, '');
+const removeExclamationMarks = s => s.replace(/\!/g, '');
 
-    billboard = (name, price = 30) => [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
+billboard = (name, price = 30) => [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
 
-    function countBy(x, n) {
+function countBy(x, n) {
       let z = [];
       for(let i = 1; i <= n; i++)
        z.push(i * x)
