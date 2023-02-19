@@ -899,7 +899,7 @@ function _if(bool, func1, func2) {
 
   powersOfTwo = n => [...Array(n + 1)].map((x ,i) => 2 ** i);
 
-  function shortcut (string) {
+function shortcut (string) {
   return string.replace(/[aeiou]/gi, "")
 };
 
