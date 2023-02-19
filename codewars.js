@@ -796,15 +796,15 @@ function amIWilson (p){
     return list.reverse()
   };
 
-  function isDigit(s) {
+function isDigit(s) {
     return s == parseFloat(s)
    };
 
-   isReallyNaN = val => Number.isNaN(val) ? true : false;
+isReallyNaN = val => Number.isNaN(val) ? true : false;
 
-   hello = name => !name ? 'Hello, World!' : `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`;
+hello = name => !name ? 'Hello, World!' : `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`;
 
-   function fourSeven(n){
+function fourSeven(n){
     const sum ={4 : 7, 7 : 4}
     return sum[n] || 0
    };
