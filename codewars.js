@@ -1,5 +1,3 @@
-//codewars for IT-INCUBATOR______________________________________________________________>>>
-
 function evalObject(value){
   switch(value.operation){
     case'+': return value.a + value.b;
