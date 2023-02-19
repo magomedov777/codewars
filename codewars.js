@@ -935,6 +935,13 @@ square = arg => arg ** 2; //first method
 
 square = arg => Math.pow(arg, 2); //second method
 
+function padIt(str,n){
+  while(n > 0){
+    str = n-- % 2 ? '*' + str : str + '*';
+}
+  return str
+};
+
 
 
 
