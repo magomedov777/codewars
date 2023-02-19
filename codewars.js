@@ -886,14 +886,6 @@ function reverseWords(str){
   return str.split(' ').reverse().join(' ')
 };
 
-reverseWords = str => str.split(' ').reverse().join(' ');
-
-function _if(bool, func1, func2) {
-  if(bool){
-    return func1()
-  }
-    return func2()
-  };
 
 past = (h, m, s) => (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000);
 
