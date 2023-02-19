@@ -927,6 +927,10 @@ var array = arr.reduce((a,b) => (a[b] = a[b] + 1 || 1, a), {})
 return arr.sort((a,b) => array[b] - array[a] || a - b)
 };
 
+function summation(num) {
+  return num * (1 + num) / 2
+};
+
 
 
 
