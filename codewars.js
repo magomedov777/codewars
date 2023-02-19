@@ -895,9 +895,9 @@ function _if(bool, func1, func2) {
     return func2()
   };
 
-  past = (h, m, s) => (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000);
+past = (h, m, s) => (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000);
 
-  powersOfTwo = n => [...Array(n + 1)].map((x ,i) => 2 ** i);
+powersOfTwo = n => [...Array(n + 1)].map((x ,i) => 2 ** i);
 
 function shortcut (string) {
   return string.replace(/[aeiou]/gi, "")
