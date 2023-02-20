@@ -965,6 +965,13 @@ function between(a, b) {
     return 0
 };
 
+const countSquares = function(cuts){
+  if(cuts === 0){
+    return 1
+  }
+  return 6 * cuts * cuts + 2
+};
+
 
  
 
