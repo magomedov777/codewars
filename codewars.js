@@ -1,5 +1,5 @@
 //Codewars for IT-INCUBATOR 
-//Road to 1 kyu =========================>
+//Road to 1 kyu ==========================================>>>>>>>
 
 
 function evalObject(value){
