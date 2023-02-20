@@ -92,10 +92,9 @@ function balancedNum(number) {
     { length: (stringNum.length - 1) / 2 },
     (_, idx) => stringNum[idx] - stringNum[stringNum.length - 1 - idx]
   );
-
-  return numbers.reduce((total, number) => total + number, 0) === 0
-    ? 'Balanced'
-    : 'Not Balanced';
+      return numbers.reduce((total, number) => total + number, 0) === 0
+        ? 'Balanced'
+        : 'Not Balanced';
 };
 
 function whatday(num) 
