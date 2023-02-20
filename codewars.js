@@ -983,6 +983,10 @@ function cockroachSpeed(s) {
 
 cockroach = s => Math.floor(s * 1000 * 100 / (60 * 60));
 
+const stringy = function (size) {
+  return "".padStart(size, "10")
+};
+
 
  
 
