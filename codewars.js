@@ -972,6 +972,8 @@ const countSquares = function(cuts){
   return 6 * cuts * cuts + 2
 };
 
+getAge = inputString => parseInt(inputString);
+
 
  
 
