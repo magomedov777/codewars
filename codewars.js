@@ -772,6 +772,8 @@ function testEven(n) {
  return false
 };
 
+testEven = n => n % 2 === 0 ? true : false;
+
 noSpace = x => x.replace(/ /g, '');
 
 function mouthSize(animal) {
