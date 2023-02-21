@@ -995,6 +995,10 @@ const stringy = function (size) {
   return "".padStart(size, "10")
 };
 
+xor = (a, b) => a === b ? false : true;
+
+
+
 
  
 
