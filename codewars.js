@@ -997,6 +997,8 @@ const stringy = function (size) {
 
 xor = (a, b) => a === b ? false : true;
 
+const areYouPlayingBanjo = (name) => name + (name.match(/^r/i) ? " plays banjo" : " does not play banjo")
+
 
 
 
