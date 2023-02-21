@@ -798,6 +798,8 @@ function reverseList(list) {
     return list.reverse()
   };
 
+const reverseList = list => list.reverse();
+
 function isDigit(s) {
     return s == parseFloat(s)
    };
