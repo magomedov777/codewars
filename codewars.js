@@ -810,6 +810,8 @@ function isDigit(s) {
     return s == parseFloat(s)
    };
 
+isDigit = s => s == parseFloat(s);
+
 isReallyNaN = val => Number.isNaN(val) ? true : false;
 
 hello = name => !name ? 'Hello, World!' : `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`;
