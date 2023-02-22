@@ -624,6 +624,8 @@ function combat(health, damage) {
   return health - damage
 };
 
+combat = (health, damage) => damage > health ? 0 : health - damage;
+
 sixToast = num => Math.abs(num - 6);
 
 function switchItUp(number){
