@@ -966,6 +966,8 @@ function between(a, b) {
     return listOfNumbers.concat(['new'])
  };
 
+ addExtra = listOfNumbers => listOfNumbers.concat(["new"]);
+
  function howManyLightsabersDoYouOwn(name) {
   if(name === "Zach"){
     return 18
