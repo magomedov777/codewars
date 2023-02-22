@@ -1066,6 +1066,8 @@ function alphabet(ns) {
   return srt[7] / srt[srt[0] * srt[1] === srt[2] ? 3 : 2]
 };
 
+lastSurvivor = (letters, coords) => coords.reduce((acc,curr) => acc.slice(0, curr) + acc.slice(curr + 1), letters);
+
 
 
 
