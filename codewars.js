@@ -924,6 +924,8 @@ function none(arr, fun){
   return !arr.some(fun)
 };
 
+none = (arr, fun) => !arr.some(fun);
+
 stringToNumber = str => Number(str);
 
 isPalindrome = x => x.toLowerCase() == x.toLowerCase().split('').reverse().join('');
