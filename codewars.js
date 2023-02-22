@@ -1061,6 +1061,13 @@ function pickIt(arr){
   return [odd,even];
 };
 
+function alphabet(ns) {
+  let srt = ns.sort((a,b) => a - b)
+  return srt[7] / srt[srt[0] * srt[1] === srt[2] ? 3 : 2]
+};
+
+
+
 
 
 
