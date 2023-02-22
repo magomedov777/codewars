@@ -943,6 +943,8 @@ function summation(num) {
   return num * (1 + num) / 2
 };
 
+summation = num => num * (1 + num) / 2;
+
 square = arg => arg ** 2; //first method
 
 square = arg => Math.pow(arg, 2); //second method
