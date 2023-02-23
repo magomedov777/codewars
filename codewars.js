@@ -1114,6 +1114,10 @@ function zeros (n) {
   return num
 };
 
+function incrementString (strng) {
+  return strng.replace(/([0-8]|\d?9+)?$/, (x) => x ? + x + 1 : 1);
+};
+
 
 
 
