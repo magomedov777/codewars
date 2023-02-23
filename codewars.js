@@ -1118,6 +1118,12 @@ function incrementString (strng) {
   return strng.replace(/([0-8]|\d?9+)?$/, (x) => x ? + x + 1 : 1);
 };
 
+function formatMoney(amount){
+  return '$' + amount.toFixed(2);
+};
+
+fm = amount => `$${amount.toFixed(2)}`;
+
 
 
 
