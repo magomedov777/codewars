@@ -1038,13 +1038,7 @@ function rentalCarCost(d) {
     return d * 40
   };
 
-  function paperwork(n, m) {
-    if(n < 0 || m < 0){
-      return 0
-    }else if(n > 0 || m > 0){
-      return n * m
-    }
-  };
+ 
 
 checkForFactor = (base, factor) => base % factor === 0;
 
