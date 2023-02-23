@@ -515,6 +515,8 @@ weatherInfo = temp => `${c = (temp - 32) * 5 / 9} is ${c > 0 ? 'above ' : ''}fre
       return (l + w)*2
   };
 
+areaOrPerimeter = (l, w) => l == w ? l * w : (l + w) * 2;
+
 let humanYearsCatYearsDogYears = function(humanYears) {
     if(humanYears == 1) return [1, 15, 15]
     if(humanYears == 2) return [2, 24, 24]
