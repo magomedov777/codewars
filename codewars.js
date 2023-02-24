@@ -140,6 +140,8 @@ function maps(x){
   return x.map(x => x * 2); 
 };
 
+map = x => x.map(x => x * 2);
+
 String.prototype.isUpperCase = function() {
   return this.toString() === this.toUpperCase();
 };
