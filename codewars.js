@@ -120,6 +120,8 @@ function whatday(num)
   return Math.ceil(year / 100)
  };
 
+ century = year => Math.ceil(year / 100);
+
  function typeOfSum(a, b) {
   return typeof(a + b)
 };
