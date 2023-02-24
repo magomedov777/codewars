@@ -130,6 +130,8 @@ function contamination(text, char){
   return char.repeat(text.length)
 };
 
+contamination = (text, char) => char.repeat(text.length);
+
 function mergeArrays(arr1, arr2) {
   return [...new Set([...arr1, ...arr2].sort((a,b) => a - b))];
 };
