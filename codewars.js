@@ -1060,7 +1060,7 @@ function rentalCarCost(d) {
     }
   };
 
-checkForFactor = (base, factor) => base % factor === 0;
+
 
 isToday = date => new Date().toDateString() === date.toDateString();
 
