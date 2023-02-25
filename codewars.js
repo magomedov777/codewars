@@ -1197,7 +1197,9 @@ const calculate = (a, o, b) => {
    return null;
   };
 
+  FilterNumbers = str => str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
 
+  
 
 
 
