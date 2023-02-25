@@ -411,6 +411,8 @@ function twoSort(s) {
   return s.sort()[0].split('').join("***")
 };
 
+twoSort = s => s.sort()[0].split('').join('***');
+
 function gooseFilter (birds) {
 var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
   return birds.filter(b => !geese.includes(b))
