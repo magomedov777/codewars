@@ -1185,6 +1185,10 @@ function quotable (name, quote){
   return `${name} said: "${quote}"`;
 };
 
+function objectType(obj) {
+  return Object.prototype.toString.call(arguments.length === 0 ? null : obj);
+};
+
 
 
 
