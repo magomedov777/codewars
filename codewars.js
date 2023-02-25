@@ -1173,6 +1173,12 @@ fm = amount => `$${amount.toFixed(2)}`;
 
 getSumOfDigits = integer => String(integer).split('').reduce((x,y) => x + Number(y), 0);
 
+getNames = data => data.map(item => item.name);
+
+function getNames(data){
+  return data.map(item => item.name);
+}; 
+
 
 
 
