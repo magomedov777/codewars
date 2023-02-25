@@ -1179,6 +1179,12 @@ function getNames(data){
   return data.map(item => item.name);
 }; 
 
+quotable = (name, quote) => `${name} said: "${quote}"`;
+
+function quotable (name, quote){
+  return `${name} said: "${quote}"`;
+};
+
 
 
 
