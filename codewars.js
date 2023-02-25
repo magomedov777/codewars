@@ -1189,6 +1189,14 @@ function objectType(obj) {
   return Object.prototype.toString.call(arguments.length === 0 ? null : obj);
 };
 
+const calculate = (a, o, b) => {
+  if(o === "+") return a + b;
+   if(o === "-") return a - b;
+   if(o === "/") return b !== 0 ? a / b : null;
+   if(o === "*") return a * b;
+   return null;
+  };
+
 
 
 
