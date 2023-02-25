@@ -1138,7 +1138,8 @@ function formatMoney(amount){
 };
 
 fm = amount => `$${amount.toFixed(2)}`;
-console.log(amount);
+
+
 
 
 
