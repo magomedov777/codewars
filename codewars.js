@@ -1171,6 +1171,9 @@ function formatMoney(amount){
 
 fm = amount => `$${amount.toFixed(2)}`;
 
+getSumOfDigits = integer => String(integer).split('').reduce((x,y) => x + Number(y), 0);
+
+
 
 
 
