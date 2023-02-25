@@ -436,6 +436,10 @@ sum = numbers => numbers.reduce((a,b) => a + b, 0);
 
 countSheeps = arrayOfSheep => arrayOfSheep.filter(Boolean).length;
 
+function digitize (n){
+  return String(n).split('').reverse().map(Number);
+};
+
 digitize = n => String(n).split('').reverse().map(Number);
 
 ArrowFunc = arr => arr.map(x => String.fromCharCode(x)).join('');
