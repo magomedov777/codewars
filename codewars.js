@@ -456,6 +456,10 @@ const isVow = a => a.map(x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fr
 
 index = (array, n) => array[n] ** n || -1;
 
+function index (array, n){
+  return array[n] ** n || -1
+};
+
 function findMultiples(integer, limit) {
     let result = [];
     for(let i = integer; i <= limit; i += integer)
