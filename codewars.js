@@ -708,7 +708,7 @@ function numberToString(num) {
 numberToString = num => num.toString();
 
 function getPlanetName(id){
-  var name;
+  let name;
   switch(id){
     case 1:
       name = 'Mercury';
