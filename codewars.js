@@ -359,6 +359,8 @@ function all( arr, fun ){
       return arr.every(fun)
     };
 
+all = (arr, fun) => arr.every(fun);
+
 function positiveSum (arr){
       let sum = 0;
        for(let i = 0; i < arr.length; i++)
