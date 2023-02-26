@@ -928,6 +928,10 @@ add = (a, b) => a == b ? true : false;
 
 const squareOrSquareRoot = (array) => array.map(el => Math.sqrt(el) % 1 ? el * el : Math.sqrt(el));
 
+function squareOrSquareRoot(array){
+  array.map(el => Math.sqrt(el) % 1 ? el * el : Math.sqrt(el));
+};
+
 min = list => Math.min(...list);
   
 max = list => Math.max(...list);
