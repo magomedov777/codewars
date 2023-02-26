@@ -1246,6 +1246,16 @@ add = arr => arr.reduce((x,y) => x + y, 0);
 
 reverse = str => str.split('').reverse().join('');
 
+function myFunction() {
+  var myObject = {
+    objProperty: "string",
+    objMethod: function objMethod() {
+      return myObject.objProperty
+		}
+  }
+  return myObject;
+};
+
 
 
 
