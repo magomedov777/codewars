@@ -1048,7 +1048,7 @@ function between(a, b) {
     return 0
 };
 
-const countSquares = function(cuts){
+function countSquares(cuts){
   if(cuts === 0){
     return 1
   }
