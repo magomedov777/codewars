@@ -1074,6 +1074,13 @@ const stringy = function (size) {
 
 xor = (a, b) => a === b ? false : true;
 
+function xor(a, b) {
+  if(a === b){
+    return false;
+  }
+    return true;
+};
+
 const areYouPlayingBanjo = (name) => name + (name.match(/^r/i) ? " plays banjo" : " does not play banjo")
 
 function getGrade (s1, s2, s3) {
@@ -1209,7 +1216,7 @@ const calculate = (a, o, b) => {
     return str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
   };
 
-  
+
 
   
 
