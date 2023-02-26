@@ -1057,6 +1057,10 @@ const countSquares = function(cuts){
 
 countSquares = cuts => cuts === 0 ? 1 : 6 * cuts * cuts + 2;
 
+function getAge(inputString){
+  return parseInt(inputString);
+};
+
 getAge = inputString => parseInt(inputString);
 
 findDifference = (a,b) => Math.abs(a.reduce((x,y) => x * y) - b.reduce((x,y) => x * y));
