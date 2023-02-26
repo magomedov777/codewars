@@ -1256,6 +1256,11 @@ function myFunction() {
   return myObject;
 };
 
+let reg = /".+?"/g;
+function getQuotes(string) {
+  return string.match(reg);
+};
+
 
 
 
