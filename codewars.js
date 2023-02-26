@@ -1065,6 +1065,10 @@ getAge = inputString => parseInt(inputString);
 
 findDifference = (a,b) => Math.abs(a.reduce((x,y) => x * y) - b.reduce((x,y) => x * y));
 
+function findDifference(a, b) {
+  return Math.abs(a.reduce((x,y) => x * y) - b.reduce((x,y) => x * y));
+};
+
 function cockroachSpeed(s) {
  const speed = s * 1000 * 100 / (60 * 60)
  return Math.floor(speed)
