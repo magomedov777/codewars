@@ -1205,6 +1205,12 @@ const calculate = (a, o, b) => {
 
   FilterNumbers = str => str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
 
+  function FilterNumbers(str){
+    return str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
+  };
+
+  
+
   
 
 
