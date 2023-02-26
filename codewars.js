@@ -1261,6 +1261,9 @@ function getQuotes(string) {
   return string.match(reg);
 };
 
+const regX = /".+?"/g;
+getQuotes = string => string.match(regX);
+
 
 
 
