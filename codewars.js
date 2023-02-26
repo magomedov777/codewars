@@ -1234,11 +1234,18 @@ const calculate = (a, o, b) => {
    return null;
   };
 
-  FilterNumbers = str => str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
+FilterNumbers = str => str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
 
-  function FilterNumbers(str){
+function FilterNumbers(str){
     return str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
   };
+
+multi = arr => arr.reduce((x,y) => x * y);
+
+add = arr => arr.reduce((x,y) => x + y, 0);
+
+reverse = str => str.split('').reverse().join('');
+
 
 
 
