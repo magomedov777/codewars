@@ -1181,6 +1181,10 @@ countWords = str => str.split(/\s+/).filter(a => a).length;
 
 moveZeros = arr => arr.reduceRight((acc,val) => val === 0 ? [...acc, val] : [val,...acc], []);
 
+function moveZeros(arr){
+  return arr.reduceRight((acc,val) => val === 0 ? [...acc,val] : [val, ...acc], []);
+};
+
 alphanumeric = string => /[a-zA-z0-9]/g.test(string)&&!/[\s_!]/.test(string);
 
 function zeros (n) {
