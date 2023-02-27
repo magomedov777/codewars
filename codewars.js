@@ -1246,6 +1246,10 @@ add = arr => arr.reduce((x,y) => x + y, 0);
 
 reverse = str => str.split('').reverse().join('');
 
+function reverse(str){
+  return str.split('').reverse().join('');
+};
+
 function myFunction() {
   var myObject = {
     objProperty: "string",
@@ -1260,6 +1264,9 @@ let reg = /".+?"/g;
 function getQuotes(string) {
   return string.match(reg);
 };
+
+const regX = /".+?"/g;
+getQuotes = string => string.match(regX);
 
 
 
