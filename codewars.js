@@ -1142,6 +1142,10 @@ checkForFactor = (base, factor) => base % factor === 0;
 
 isToday = date => new Date().toDateString() === date.toDateString();
 
+function isToday(date){
+  return new Date().toDateString() === date.toDateString();
+};
+
 function pickIt(arr){
   var odd=[],even=[];
   for(let i = 0; i < arr.length; i++)
