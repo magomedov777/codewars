@@ -1242,6 +1242,10 @@ function FilterNumbers(str){
 
 multi = arr => arr.reduce((x,y) => x * y);
 
+function multi(arr){
+  return arr.reduce((x,y) => x * y);
+};
+
 add = arr => arr.reduce((x,y) => x + y, 0);
 
 function add(arr){
