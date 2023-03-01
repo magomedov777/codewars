@@ -969,6 +969,12 @@ function squareArea(A){
 
 opposite = number => number ? -number : +number;
 
+function opposite(number){
+  if(-number){
+    return +number
+  };
+};
+
 function reverseWords(str){
   return str.split(' ').reverse().join(' ')
 };
