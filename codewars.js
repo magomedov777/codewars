@@ -1108,6 +1108,8 @@ const stringy = function (size) {
 
 xor = (a, b) => a === b ? false : true;
 
+//new
+
 function xor(a, b) {
   if(a === b){
     return false;
