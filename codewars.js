@@ -1144,11 +1144,11 @@ function checkForFactor(base,factor){
   return base % factor === 0
 };
 
-isToday = date => new Date().toDateString() === date.toDateString();
-
 function isToday(date){
   return new Date().toDateString() === date.toDateString();
 };
+
+isToday = date => new Date().toDateString() === date.toDateString();
 
 function pickIt(arr){
   var odd=[],even=[];
