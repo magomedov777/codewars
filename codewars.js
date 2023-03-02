@@ -1304,6 +1304,12 @@ function getQuotes(string) {
 const regX = /".+?"/g;
 getQuotes = string => string.match(regX);
 
+filterWords = phrase => phrase.replace(/(bad|mean|ugly|horrible|hideous)/ig,'awesome');
+
+function filterWords(phrase){
+  return phrase.replace(/(bad|mean|ugly|horrible|hideous)/ig,'awesome');
+};
+
 
 
 
