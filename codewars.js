@@ -1314,7 +1314,7 @@ const flatten = array => {
   return [].concat(...array);
 };
 
-
+flatten = array => [].concat(...array);
 
 
 
