@@ -1276,7 +1276,9 @@ function multi(arr){
 
 add = arr => arr.reduce((x,y) => x + y, 0);
 
-
+function add(arr){
+  return arr.reduce((x,y) => x + y, 0);
+};
 
 reverse = str => str.split('').reverse().join('');
 
