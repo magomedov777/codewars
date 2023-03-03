@@ -1074,6 +1074,8 @@ function between(a, b) {
     return 0
 };
 
+howManyLightsabersDoYouOwn = name => name === "Zach" ? 18 : 0;
+
 function countSquares(cuts){
   if(cuts === 0){
     return 1
