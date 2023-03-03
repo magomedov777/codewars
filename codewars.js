@@ -1042,9 +1042,9 @@ function summation(num) {
 
 summation = num => num * (1 + num) / 2;
 
-square = arg => arg ** 2; //first method
+square = arg => arg ** 2;
 
-square = arg => Math.pow(arg, 2); //second method
+square = arg => Math.pow(arg, 2);
 
 function padIt(str,n){
   while(n > 0){
