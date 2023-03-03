@@ -1119,19 +1119,7 @@ function xor(a, b) {
 
 const areYouPlayingBanjo = (name) => name + (name.match(/^r/i) ? " plays banjo" : " does not play banjo")
 
-function getGrade (s1, s2, s3) {
-  const arr = (s1 + s2 + s3) / 3
-  if(arr < 60){
-    return 'F'
-  }else if(arr < 70){
-    return 'D'
-  }else if(arr < 80){
-    return 'C'
-  }else if(arr < 90){
-    return 'B'
-  }else 
-    return 'A'
-};
+
 
 function rentalCarCost(d) {
   if (d >= 7){
