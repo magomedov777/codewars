@@ -1198,6 +1198,10 @@ Counter.prototype.reset = function() {
 function countWords(str) {
   return str.split(/\s+/).filter(a => a).length
 };
+
+countWords = str => str.split(/\s+/).filter(a => a).length;
+
+function moveZeros(arr){
   return arr.reduceRight((acc,val) => val === 0 ? [...acc,val] : [val, ...acc], []);
 };
 
