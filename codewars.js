@@ -1314,6 +1314,9 @@ function filterWords(phrase){
 
 flatten = array => [].concat(...array);
 
+const flatten = array => {
+  return [].concat(...array);
+};
 
 
   
