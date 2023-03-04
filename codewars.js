@@ -1195,15 +1195,7 @@ Counter.prototype.reset = function() {
   this.value = 0;
 };
 
-function countWords(str) {
-  return str.split(/\s+/).filter(a => a).length
-};
 
-countWords = str => str.split(/\s+/).filter(a => a).length;
-
-moveZeros = arr => arr.reduceRight((acc,val) => val === 0 ? [...acc, val] : [val,...acc], []);
-
-function moveZeros(arr){
   return arr.reduceRight((acc,val) => val === 0 ? [...acc,val] : [val, ...acc], []);
 };
 
