@@ -299,6 +299,10 @@ function well(x){
 
 sumMix = x => x.reduce((a,b) => +b + a, 0);
 
+function sumMix (x){
+  return x.reduce((a,b) => +b + a, 0);
+};
+
 const stringToArray = (string) => string.split(' ');
 
 function fakeBin(x){
