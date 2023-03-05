@@ -321,6 +321,8 @@ function distinct(a) {
     return [...new Set(a)];
   };
 
+distinct = a => [...new Set(a)];
+
 function first (arr, n = 1){
     if(n == 0){
       return [];
