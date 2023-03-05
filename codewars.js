@@ -256,6 +256,10 @@ ensureQuestion = s => s.endsWith('?') ? s : s = '?';
 
 const largest = (n, array) => array.sort((a,b) => a - b).slice(array.length - n);
 
+function largest(n, array){
+  return array.sort((a,b) => a - b).slice(array.length - n);
+};
+
 const evenOrOdd = (number) => number % 2 === 0 ? "Even" : "Odd";
 
 const solution = (start, finish, distance = finish - start) => Math.floor(distance / 3) + distance % 3; 
