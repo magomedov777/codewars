@@ -286,6 +286,8 @@ grow = x => x.reduce((a,b) => a * b);
   return ["I love you", "a little", "a lot", "passionately", "madly", "not at all"][(nbPetals - 1) %6]
   };
 
+howMuchILoveYou = nbPetals => ["I love you", "a little", "a lot", "passionately", "madly", "not at all"][(nbPetals - 1) %6];
+
 function well(x){
     let good = 0;
      for (const idea of x){
