@@ -2,7 +2,7 @@
 //Road to 1 kyu ==========================================>>>>>>>
 //start 22 January, 2023
 
-function evalObject(value){
+function evalObject(value){                     //new switch case
   switch(value.operation){
     case'+': return value.a + value.b;
     case'-': return value.a - value.b;
