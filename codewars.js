@@ -85,6 +85,9 @@ function half({max,min}){
   return (max + min) / 2.0;
 }
 
+function firstNonRepeatingLetter(s) {
+  return s[s.toLowerCase().split('').findIndex(letter => s.toLowerCase().split('').filter(l => l === letter).length === 1 )] || '';
+}
 
 function balancedNum(number) {
   const stringNum = String(number);
