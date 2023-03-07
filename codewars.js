@@ -461,7 +461,9 @@ function smash (words) {
 
 smash = words => words.join(' ');
 
-
+function sum (numbers) {
+  return numbers.reduce((a,b) => a + b, 0)
+};
 
 sum = numbers => numbers.reduce((a,b) => a + b, 0);
 
