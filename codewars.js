@@ -658,6 +658,10 @@ function parseF(s){
 
 iceBrickVolume = (radius, bottleLength, rimLength) =>  (bottleLength - rimLength) * 2 * radius * radius;
 
+function iceBrickVolume(radius, bottleLength, rimLength){
+  return (bottleLength - rimLength) * 2 * radius * radius;
+};
+
 function otherAngle(a, b) {
   return 180 - (a + b);
 };
