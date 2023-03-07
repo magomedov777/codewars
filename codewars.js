@@ -618,6 +618,10 @@ toBinary = n => +n.toString(2);
 
 const hero = (bullets, dragons) => bullets / 2 >= dragons;
 
+function hero(bullets,dragons){
+  return bullets / 2 >= dragons;
+};
+
 function power(x,y){
     return x ** y;
   };
