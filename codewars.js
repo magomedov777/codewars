@@ -90,7 +90,7 @@ function firstNonRepeatingLetter(s) {
 }
 
 function balancedNum(number) {
-  const stringNum = String(number);
+  let stringNum = String(number);
   const numbers = Array.from(
     { length: (stringNum.length - 1) / 2 },
     (_, idx) => stringNum[idx] - stringNum[stringNum.length - 1 - idx]
