@@ -1005,6 +1005,8 @@ function integrate(coefficient, exponent) {
   return coefficient / (exponent + 1) + 'x^' + (exponent + 1)
 };
 
+const integrate = (coefficient, exponent) => coefficient / (exponent + 1) + 'x^' + (exponent + 1);
+
 function binToDec(bin){
   return parseInt(bin, 2)
 };
