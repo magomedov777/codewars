@@ -984,6 +984,13 @@ function add(a, b){
   return a == b ? true : false;
 };
 
+function add(a,b){
+  if(a == b){
+    return true
+  };
+  return false
+};
+
 const squareOrSquareRoot = (array) => array.map(el => Math.sqrt(el) % 1 ? el * el : Math.sqrt(el));
 
 function squareOrSquareRoot(array){
