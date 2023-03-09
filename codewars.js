@@ -1048,6 +1048,8 @@ function shortcut (string) {
   return string.replace(/[aeiou]/gi, "")
 };
 
+shortcut = s => s.replace(/[aeiou]/gi, '');
+
 const hotpo = function(n){
   if(n === 1){
     return 0
