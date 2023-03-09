@@ -931,6 +931,13 @@ function isReallyNaN(val){
   return Number.isNaN(val) ? true : false;
 };
 
+function isReallyNaN(val){
+  if(Number.isNaN(val)){
+    return true;
+  };
+  return false;
+};
+
 hello = name => !name ? 'Hello, World!' : `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`;
 
 function fourSeven(n){
