@@ -1044,6 +1044,10 @@ past = (h, m, s) => (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000);
 
 powersOfTwo = n => [...Array(n + 1)].map((x ,i) => 2 ** i);
 
+function powersOfTwo(n){
+  return [...Array(n + 1)].map((x,i) => 2 ** i);
+};
+
 function shortcut (string) {
   return string.replace(/[aeiou]/gi, "");
 };
