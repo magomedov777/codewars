@@ -1042,6 +1042,10 @@ _if = (bool, func1, func2) => bool ? func1 : func2;
 
 past = (h, m, s) => (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000);
 
+function past(h, m, s){
+  return (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000);
+};
+
 powersOfTwo = n => [...Array(n + 1)].map((x ,i) => 2 ** i);
 
 function powersOfTwo(n){
