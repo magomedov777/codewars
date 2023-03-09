@@ -946,7 +946,11 @@ function nearestSq(n){
     return Math.pow(Math.round(Math.sqrt(n)) ,2)
 };
 
-derive = (coefficient,exponent) => (coefficient * exponent) + "x^" + (exponent - 1);
+derive = (coefficient, exponent) => (coefficient * exponent) + "x^" + (exponent - 1);
+
+function derive(coefficient, exponent){
+  return (coefficient * exponent) + 'x^' + (exponent - 1);
+};
 
 nthEven = n => (n - 1) * 2;
 
@@ -984,7 +988,7 @@ function add(a, b){
   return a == b ? true : false;
 };
 
-function add(a,b){
+function add(a, b){
   if(a == b){
     return true
   };
