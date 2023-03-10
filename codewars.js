@@ -1181,6 +1181,7 @@ function countSquares(cuts){
   return 6 * cuts * cuts + 2
 };
 
+countSquares = cuts => cuts === 0 ? 1 : 6 * cuts * cuts + 2;
 
 function getAge(inputString){
   return parseInt(inputString);
