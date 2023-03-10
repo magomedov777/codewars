@@ -1250,6 +1250,9 @@ function rentalCarCost(d) {
 
 checkForFactor = (base, factor) => base % factor === 0;
 
+function checkForFactor(base,factor){
+  return base % factor === 0
+};
 
 isToday = date => new Date().toDateString() === date.toDateString();
 
