@@ -1174,6 +1174,12 @@ function between(a, b) {
 
 howManyLightsabersDoYouOwn = name => name === "Zach" ? 18 : 0;
 
+function countSquares(cuts){
+  if(cuts === 0){
+    return 1
+  }
+  return 6 * cuts * cuts + 2
+};
 
 
 function getAge(inputString){
