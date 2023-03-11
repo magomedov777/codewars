@@ -566,6 +566,8 @@ function multiply(number){
   return number * 5 ** String(Math.abs(number)).length
 };
 
+multiply = number => number * 5 ** String(Math.abs(number)).length;
+
 function correctTail(body, tail){  
   return body[body.length - 1] == tail;
  };
