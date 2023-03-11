@@ -538,7 +538,7 @@ function nameMe(first, last) {
 
 function orderWeight(strng) {
   const sum = (str) => str.split('').reduce((sum,el)=>(sum+(+el)),0);
-  function add(a,b){
+  function add(a, b){
     let sA = sum(a);
     let sB = sum(b);
     return sA === sB ? a.localeCompare(b) : sA - sB;
