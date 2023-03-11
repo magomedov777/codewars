@@ -411,6 +411,8 @@ function buildString(...template){
   return `I like ${template.join(', ')}!`
 };
 
+buildString = (...template) => `I like ${template.join(', ')}!`; 
+
 function createArray(number){
   var newArray = [];
   for(var counter = 1; counter <= number; counter++){
