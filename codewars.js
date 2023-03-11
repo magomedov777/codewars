@@ -1144,7 +1144,7 @@ square = arg => arg ** 2;
 
 square = arg => Math.pow(arg, 2);
 
-function padIt(str,n){
+function padIt(str, n){
   while(n > 0){
     str = n-- % 2 ? '*' + str : str + '*';
 }
