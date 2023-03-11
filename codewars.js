@@ -534,7 +534,6 @@ function nameMe(first, last) {
   this.firstName = first;
   this.lastName = last;
   this.name = first + ' ' + last;
-  console.log(nameMe)
 };
 
 function orderWeight(strng) {
