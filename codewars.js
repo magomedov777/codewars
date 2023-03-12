@@ -889,6 +889,10 @@ oddCount = n => n % 2 === 0 ? n / 2 : Math.floor(n / 2);
 
 removeChar = str => str.slice(1, -1);
 
+function removeChar(str){
+  return str.slice(1, -1);
+};
+
 function unusualFive() {
   const arr = ['a', 'b', 'c', 'd','e']
    return arr.length;
