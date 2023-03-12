@@ -1000,8 +1000,11 @@ const cubeChecker = function(volume, side){
 };
 
 function cubeChecker(volume, side){
-  if(volume / side )
-}
+  if(volume / side ** 2 == side && side > 0){
+    return true;
+  };
+    return false;
+};
 
 cubeChecker = (volume, side) => volume / side ** 2 == side && side > 0 ? true : false;
 
