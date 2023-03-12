@@ -699,7 +699,6 @@ function distanceBetweenPoints(a, b) {
     return Math.hypot(a.x - b.x, a.y - b.y);
 };
 
-const distanceBetweenPoints = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
 
 function mystery() {
   const results = {sanity: 'Hello'};
