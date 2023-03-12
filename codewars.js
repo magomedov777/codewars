@@ -980,6 +980,8 @@ function nearestSq(n){
     return Math.pow(Math.round(Math.sqrt(n)) ,2)
 };
 
+nearestSq = n => Math.pow(Math.round(Math.sqrt(n)) ,2);
+
 derive = (coefficient, exponent) => (coefficient * exponent) + "x^" + (exponent - 1);
 
 function derive(coefficient, exponent){
