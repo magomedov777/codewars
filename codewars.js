@@ -661,6 +661,10 @@ strCount = (str, letter) => str.split(letter).length - 1;
 
 strCount = (str, letter) => str.split('').filter(a => a == letter).length;
 
+const strCount = function(str, letter){
+  return str.split('').filter(a => a == letter).length;
+};
+
 function updateLight(current) {
   return ({
     green: 'yellow',
