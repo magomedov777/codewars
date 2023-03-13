@@ -579,6 +579,9 @@ function rainAmount(mm){
        return "Your plant has had more than enough water for today!"
   }};
 
+rainAmount = mm => mm < 40 ? "You need to give your plant " + (40 - mm) + "mm of water" :
+"Your plant has had more than enough water for today!";
+
 function multiply(number){
   return number * 5 ** String(Math.abs(number)).length
 };
