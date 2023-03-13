@@ -554,7 +554,15 @@ function nameMe(first, last) {
   this.name = first + ' ' + last;
 };
 
-
+function orderWeight(strng) {
+  const sum = (str) => str.split('').reduce((sum,el)=>(sum+(+el)),0);
+  function add(a, b){
+    let sA = sum(a);
+    let sB = sum(b);
+    return sA === sB ? a.localeCompare(b) : sA - sB;
+  };
+  return strng.split(' ').sort(add).join(' ');
+};
 
 function alternate(n, firstValue, secondValue){
   let arr = []
