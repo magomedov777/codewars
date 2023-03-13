@@ -881,7 +881,7 @@ function include(arr, item){
   return false
 };
 
-
+include = (arr, item) => arr.includes(item) ? true : false;
 
 abbrevName = name => name.toUpperCase().split(' ').map(a => a[0]).join(`.`);
 
