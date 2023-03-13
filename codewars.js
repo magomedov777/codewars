@@ -610,15 +610,7 @@ weatherInfo = temp => `${c = (temp - 32) * 5 / 9} is ${c > 0 ? 'above ' : ''}fre
 
 areaOrPerimeter = (l, w) => l == w ? l * w : (l + w) * 2;
 
-let humanYearsCatYearsDogYears = function(humanYears) {
-    if(humanYears == 1) return [1, 15, 15]
-    if(humanYears == 2) return [2, 24, 24]
-    return [
-      humanYears,
-      24 + (humanYears - 2) * 4,
-      24 + (humanYears - 2) * 5
-    ];
-  }
+
 
 function multiTable(number) {
     let result = "";
