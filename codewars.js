@@ -371,6 +371,10 @@ const removeExclamationMarks = s => s.replace(/\!/g, '');
 
 billboard = (name, price = 30) => [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
 
+function billboard(name, price = 30){
+  return [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
+};
+
 function countBy(x, n) {
       let z = [];
       for(let i = 1; i <= n; i++)
