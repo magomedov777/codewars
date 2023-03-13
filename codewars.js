@@ -369,6 +369,10 @@ repeatStr = (n, s) => s.repeat(n);
 
 const removeExclamationMarks = s => s.replace(/\!/g, '');
 
+function removeExclamationMarks(s){
+  return s.replace(/\!/g, '');
+};
+
 billboard = (name, price = 30) => [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
 
 function billboard(name, price = 30){
