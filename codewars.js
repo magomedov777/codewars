@@ -401,9 +401,7 @@ function printArray(array){
   return array.join();
 };
 
-function stairsIn20(s){
-  return 20 * s.reduce((a, b) => a + b.reduce((c,d) => c + d, 0) ,0) 
-};
+
 
 stairsIn20 = s => 20 * s.reduce((a, b) => a + b.reduce((c,d) => c + d, 0) ,0);
 
