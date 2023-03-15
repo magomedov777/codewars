@@ -1513,6 +1513,12 @@ age >= 18 && age <= 64 ? "You're a(n) adult" : "You're a(n) elderly";
 describeAge = (a) => `You're a(n) ${a<13?'kid':a<18?'teenager':a<65?'adult':'elderly'}`;
 
 periodIsLate = (last, today, cycleLength) => Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength;
+
+function nameShuffler (str){
+  return str.split(' ').reverse().join(' ');
+};
+
+nameShuffler = str => str.split(' ').reverse().join(' ');
   
 
 
