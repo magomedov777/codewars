@@ -1514,6 +1514,10 @@ describeAge = (a) => `You're a(n) ${a<13?'kid':a<18?'teenager':a<65?'adult':'eld
 
 periodIsLate = (last, today, cycleLength) => Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength;
 
+function(last, today, cycleLength){
+  return Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength;
+};
+
 function nameShuffler (str){
   return str.split(' ').reverse().join(' ');
 };
