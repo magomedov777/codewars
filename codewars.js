@@ -381,6 +381,10 @@ function getAverage(marks){
 
 makeUpperCase = str => str.toUpperCase();
 
+function makeUpperCase(str){
+  return str.toUpperCase();
+};
+
 repeatStr = (n, s) => s.repeat(n);
 
 function repeatStr(n, s){
