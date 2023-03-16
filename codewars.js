@@ -193,9 +193,11 @@ function multipleOfIndex(array){
 
 multipleOfIndex = arr => arr.filter((e, i) => e % i == 0); 
 
-function check(a,x){
+function check(a, x){
   return a.includes(x)
 };
+
+check = (a, x) => a.includes(x);
 
 var joinStrings = (string1, string2) => `${string1} ${string2}`;
 
