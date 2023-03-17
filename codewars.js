@@ -987,6 +987,8 @@ function mouthSize(animal) {
   return 'wide'
 };
 
+mouthSize = animal => animal === 'alligator' || animal === 'ALLIGATOR' ? small : wide;
+
 function amIWilson(p){
   return [5, 13, 563].indexOf(p) > -1
   };
