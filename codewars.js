@@ -958,6 +958,8 @@ function unusualFive() {
    return arr.length;
  };
 
+ unusualFive = (arr = ['a', 'b', 'c', 'd','e']) => arr.length;
+
  function numberToPower(number, power){
   if(power > 0){
     return number * numberToPower(number, power - 1)
