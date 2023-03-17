@@ -965,6 +965,8 @@ function unusualFive() {
   return 1
 };
 
+numberToPower = (number, power) => power > 0 ? number * numberToPower(number, power - 1) : 1;
+
 function testEven(n) {
   if(n % 2 === 0){
     return true
