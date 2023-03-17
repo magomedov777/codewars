@@ -728,7 +728,7 @@ function otherAngle(a, b) {
   return 180 - (a + b);
 };
 
-otherAngle = (a,b) => 180 - a - b;
+otherAngle = (a, b) => 180 - a - b;
 
 function isValid (formula) {
   return(
