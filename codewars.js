@@ -403,12 +403,7 @@ function billboard(name, price = 30){
   return [...new Array(name.length)].fill(price).reduce((a,b) => a + b);
 };
 
-function countBy(x, n) {
-      let z = [];
-      for(let i = 1; i <= n; i++)
-       z.push(i * x)
-        return z;
-    };
+
 
 removeEveryOther = arr => arr.filter((_, index) => index % 2 == 0);
 
