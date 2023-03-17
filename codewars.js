@@ -749,6 +749,8 @@ function mystery() {
   return results;
 };
 
+mystery = (results = {sanity: 'Hello'}) => results;
+
 function Hero (name) {
   this.name = name || "Hero"
     this.position = "00"
@@ -822,7 +824,7 @@ function twoHighest(arr) {
   return [...new Set(arr.sort((a,b) => b - a))].slice(0,2)
  };
 
- twoHighest = arr => [...new Set(arr.sort((a,b) => b - a))].slice(0,2);
+twoHighest = arr => [...new Set(arr.sort((a,b) => b - a))].slice(0,2);
 
 remainder = (n, m) => n > m ? n % m : m % n;
 
