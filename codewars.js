@@ -336,17 +336,6 @@ function sumMix (x){
 
 const stringToArray = (string) => string.split(' ');
 
-function fakeBin(x){
-    let bin = "";
-     for(const a of x){
-      if(parseInt(a) < 5){
-        bin += "0";
-        }else{
-          bin += "1";
-        }
-       }
-      return bin
-  };
 
 function check(a, x) {
     return a.includes(x);
