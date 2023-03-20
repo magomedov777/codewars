@@ -851,7 +851,7 @@ function numberToString(num) {
   return num.toString()
 };
 
-numberToString = num => num.toString();
+
 
 function getPlanetName(id){
   let name;
