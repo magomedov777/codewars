@@ -328,7 +328,7 @@ function well(x){
      return good === 0 ? "Fail!" : good > 2 ? "I smell a series!" : "Publish!"
   };
 
-
+sumMix = x => x.reduce((a,b) => +b + a, 0);
 
 function sumMix (x){
   return x.reduce((a,b) => +b + a, 0);
