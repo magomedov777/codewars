@@ -151,9 +151,7 @@ function maps(x){
 
 maps = x => x.map(x => x * 2);
 
-String.prototype.isUpperCase = function() {
-  return this.toString() === this.toUpperCase();
-};
+
 
 let saleHotdogs = n => n * (n < 5 ? 100 : (n >= 5 && n < 10 ? 95 : 90));
 
