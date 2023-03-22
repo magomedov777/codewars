@@ -1285,12 +1285,7 @@ function between(a, b) {
 
  addExtra = listOfNumbers => listOfNumbers.concat(["new"]);
 
- function howManyLightsabersDoYouOwn(name) {
-  if(name === "Zach"){
-    return 18
-  }
-    return 0
-};
+
 
 howManyLightsabersDoYouOwn = name => name === "Zach" ? 18 : 0;
 
