@@ -1401,18 +1401,7 @@ function alphabet(ns) {
 
 lastSurvivor = (letters, coords) => coords.reduce((acc,curr) => acc.slice(0, curr) + acc.slice(curr + 1), letters);
 
-function Counter() {
-  this.value = 0;
-}
-Counter.prototype.increase = function() {
-  this.value++;
-}
-Counter.prototype.getValue = function() {
-  return this.value;
-}
-Counter.prototype.reset = function() {
-  this.value = 0;
-};
+
 
 function countWords(str) {
   return str.split(/\s+/).filter(a => a).length
