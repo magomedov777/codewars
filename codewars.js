@@ -1473,13 +1473,7 @@ function objectType(obj) {
 
 objectType = obj => Object.prototype.toString.call(arguments.length === 0 ? null : obj);
 
-const calculate = (a, o, b) => {
-  if(o === "+") return a + b;
-   if(o === "-") return a - b;
-   if(o === "/") return b !== 0 ? a / b : null;
-   if(o === "*") return a * b;
-   return null;
-  };
+
 
 FilterNumbers = str => str.split('').filter(c => c.match(/[a-zA-Z]/)).join('');
 
