@@ -1414,9 +1414,7 @@ Counter.prototype.reset = function() {
   this.value = 0;
 };
 
-function countWords(str) {
-  return str.split(/\s+/).filter(a => a).length
-};
+
 
 countWords = str => str.split(/\s+/).filter(a => a).length;
 
