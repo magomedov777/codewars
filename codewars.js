@@ -955,7 +955,9 @@ function oddCount(n){
 
 removeChar = str => str.slice(1, -1);
 
-
+function removeChar(str){
+  return str.slice(1, -1);
+};
 
 function unusualFive() {
   const arr = ['a', 'b', 'c', 'd','e']
