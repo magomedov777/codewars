@@ -751,13 +751,7 @@ function mystery() {
 
 mystery = (results = {sanity: 'Hello'}) => results;
 
-function Hero (name) {
-  this.name = name || "Hero"
-    this.position = "00"
-    this.health = 100
-    this.damage = 5
-    this.experience = 0
-};
+
 
 function solution(str){
   return str = [...str].reverse().join("")
