@@ -884,7 +884,12 @@ function getPlanetName(id){
    return name;
 };
 
-
+function problem (x){
+  if(typeof(x) === 'number'){
+     return x * 50 + 6 
+  }
+      return "Error"
+};
 
 problem = x => typeof(x) === "number" ? x * 50 + 6 : "Error";
 
