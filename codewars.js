@@ -680,7 +680,9 @@ function hero(bullets,dragons){
   return bullets / 2 >= dragons;
 };
 
-
+function power(x, y){
+    return x ** y;
+  };
 
 power = (x, y) => x ** y;
 
