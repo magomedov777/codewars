@@ -1558,9 +1558,7 @@ function lasttoday(last, today, cycleLength){
   return Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength;
 };
 
-function nameShuffler (str){
-  return str.split(' ').reverse().join(' ');
-};
+
 
 nameShuffler = str => str.split(' ').reverse().join(' ');
 
