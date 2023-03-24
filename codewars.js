@@ -757,9 +757,11 @@ function Hero (name) {
     this.health = 100
     this.damage = 5
     this.experience = 0
+};   
+
+function solution(str){
+  return str = [...str].reverse().join("")
 };
-
-
 
 solution = str => [...str].reverse().join("");
 
