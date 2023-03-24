@@ -1566,7 +1566,7 @@ nameShuffler = str => str.split(' ').reverse().join(' ');
 
 sumArray = array => array ? array.sort((a, b) => a - b).slice(1,-1).reduce((x, y) => x + y, 0) : 0;
 
-
+correct = string => string.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I');
 
 function correct(str){
   return str.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I');
