@@ -680,9 +680,7 @@ function hero(bullets,dragons){
   return bullets / 2 >= dragons;
 };
 
-function power(x, y){
-    return x ** y;
-  };
+
 
 power = (x, y) => x ** y;
 
@@ -1368,8 +1366,7 @@ function rentalCarCost(d) {
     }
   };
 
-paperwork = (n, m) => n < 0 || m < 0 ? 0 :
- n > 0 || m > 0 ? n * m;
+paperwork = (n, m) =>  n < 0 || m < 0 ? 0 : n > 0 || m > 0 ? n * m
 
 checkForFactor = (base, factor) => base % factor === 0;
 
