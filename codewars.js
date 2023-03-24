@@ -1568,6 +1568,9 @@ sumArray = array => array ? array.sort((a, b) => a - b).slice(1,-1).reduce((x, y
 
 correct = string => string.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I');
 
+function correct(str){
+  return str.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I');
+};
 
 
   
