@@ -201,9 +201,7 @@ check = (a, x) => a.includes(x);
 
 var joinStrings = (string1, string2) => `${string1} ${string2}`;
 
-function joinStrings(string1, string2){
-  return `${string1} ${string2}`;
-};
+
 
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   let hisOld = dadYearsOld - sonYearsOld * 2;
