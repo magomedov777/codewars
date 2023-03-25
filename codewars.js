@@ -220,7 +220,6 @@ function pillars (numPill, dist, width){
     return numPill * ((dist * 100) + width) - (width * 2) - (dist * 100)
 };
 
-pillars = (numPill, dist, width) => numPill < 2 ? 0 : numPill * ((dist * 100) + width) - (width * 2) - (dist * 100);
 
 function finalGrade (exam, projects) {
   if(exam > 90 || projects > 10){
