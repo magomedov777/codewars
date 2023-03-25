@@ -93,6 +93,16 @@ function firstNonRepeatingLetter(s) {
   return s[s.toLowerCase().split('').findIndex(letter => s.toLowerCase().split('').filter(l => l === letter).length === 1 )] || '';
 }
 
+function balancedNum(number) {
+  let stringNum = String(number);
+  const numbers = Array.from(
+    { length: (stringNum.length - 1) / 2 },
+    (_, idx) => stringNum[idx] - stringNum[stringNum.length - 1 - idx]
+  );
+      return numbers.reduce((total, number) => total + number, 0) === 0
+        ? 'Balanced'
+        : 'Not Balanced';
+};
 
 function whatday(num) 
   if(num < 1 || num > 7){
