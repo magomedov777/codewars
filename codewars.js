@@ -299,7 +299,6 @@ function toCsvText(array) {
   return array.join("\n");
 };
 
-toCsvText = arr => arr.join("\n");
 
 function invert(array) {
   return array.map(x => -x)
