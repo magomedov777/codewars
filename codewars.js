@@ -1208,7 +1208,9 @@ function powersOfTwo(n){
   return [...Array(n + 1)].map((x,i) => 2 ** i);
 };
 
-
+function shortcut (string) {
+  return string.replace(/[aeiou]/gi, "");
+};
 
 shortcut = s => s.replace(/[aeiou]/gi, '');
 
