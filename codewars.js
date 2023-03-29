@@ -1351,14 +1351,7 @@ function getGrade (s1, s2, s3) {
     return 'A'
 };
 
-function rentalCarCost(d) {
-  if (d >= 7){
-  return (d * 40) - 50
-  }else if(d >= 3){
-    return (d * 40) - 20
-  }else if(d < 3)
-    return d * 40
-  };
+
 
   function paperwork(n, m) {
     if(n < 0 || m < 0){
