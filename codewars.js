@@ -511,7 +511,7 @@ function sum (numbers) {
   return numbers.reduce((a,b) => a + b, 0)
 };
 
-
+sum = numbers => numbers.reduce((a,b) => a + b, 0);
 
 countSheeps = arrayOfSheep => arrayOfSheep.filter(Boolean).length;
 
