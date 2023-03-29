@@ -515,9 +515,7 @@ sum = numbers => numbers.reduce((a,b) => a + b, 0);
 
 countSheeps = arrayOfSheep => arrayOfSheep.filter(Boolean).length;
 
-function countSheeps (arrayOfSheep){
-  return arrayOfSheep.filter(Boolean).length;
-};
+
 
 function digitize (n){
   return String(n).split('').reverse().map(Number);
