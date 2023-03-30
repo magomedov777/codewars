@@ -1149,7 +1149,7 @@ function sakuraFall(v) {
   return 0
 };
 
-sakuraFall = v => v > 0 ? 400 / v : 0;
+
 
 function integrate(coefficient, exponent) {
   return coefficient / (exponent + 1) + 'x^' + (exponent + 1)
