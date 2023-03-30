@@ -1368,9 +1368,7 @@ function rentalCarCost(d) {
     }
   };
 
-paperwork = (n, m) =>  n < 0 || m < 0 ? 0 : n > 0 || m > 0 ? n * m;
 
-checkForFactor = (base, factor) => base % factor === 0;
 
 function checkForFactor(base,factor){
   return base % factor === 0
