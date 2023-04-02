@@ -914,6 +914,12 @@ function sumStr(a,b){
   return (+a + +b).toString();
 };
 
+const onInputHandler = (event) => {
+  if(event.key === 'Enter'){
+    return newFunc;
+  }; 
+};
+
 function lovefunc(flower1, flower2){
   if(flower1 % 2 != flower2 % 2){
     return true
