@@ -1570,7 +1570,7 @@ function correct(str){
   return str.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I');
 };
 
-paperwork = (n, m) =>  n < 0 || m < 0 ? 0 : n > 0 || m > 0 ? n * m
+
 
 
 
