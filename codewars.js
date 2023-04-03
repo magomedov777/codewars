@@ -555,7 +555,12 @@ function index (array, n){
   return array[n] ** n || -1
 };
 
-
+function findMultiples(integer, limit) {
+    let result = [];
+    for(let i = integer; i <= limit; i += integer)
+      result.push(i)
+    return result
+  };
 
 function solution(input, markers) {
   let abc = input.split("\n")
