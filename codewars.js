@@ -551,7 +551,9 @@ function isVow (a){
 
 index = (array, n) => array[n] ** n || -1;
 
-
+function index (array, n){
+  return array[n] ** n || -1
+};
 
 function findMultiples(integer, limit) {
     let result = [];
