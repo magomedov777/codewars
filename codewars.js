@@ -1251,7 +1251,9 @@ function isPalindrome(x){
 
 solution = (a, b) => a.length < b.length ? a + b + a : b + a + b;
 
-
+function hexToDec(hexString){
+  return parseInt(hexString, 16)
+};
 
 hexToDec = hexString => parseInt(hexString, 16);
 
