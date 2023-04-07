@@ -1148,6 +1148,8 @@ min = list => Math.min(...list);
   
 max = list => Math.max(...list);
 
+//new --------------------------------------------------------------------------
+
 const flip = (d, a) => d === "R" ? a.sort((a,b) => a - b) : a.sort((a, b) => b - a);
 
 function sakuraFall(v) {
