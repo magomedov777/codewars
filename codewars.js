@@ -1504,7 +1504,9 @@ function add(arr){
 
 reverse = str => str.split('').reverse().join('');
 
-
+function reverse(str){
+  return str.split('').reverse().join('');
+};
 
 function myFunction() {
   var myObject = {
