@@ -1277,13 +1277,7 @@ function padIt(str, n){
   return str;
 };
 
-function between(a, b) {
-  const array = []
-    for(i = a; i <= b; i++){
-      array.push(i)
-    }
-    return array
-  };
+
 
   function addExtra( listOfNumbers ){
     return listOfNumbers.concat(['new'])
