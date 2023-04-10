@@ -1098,6 +1098,7 @@ function cubeChecker(volume, side){
     return false;
 };
 
+cubeChecker = (volume, side) => volume / side ** 2 == side && side > 0 ? true : false;
 
 function isPythagoreanTriple (integers){
   let [x, y, z] = integers.sort((x,y) => x - y) 
