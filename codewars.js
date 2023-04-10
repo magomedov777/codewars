@@ -1105,9 +1105,7 @@ function isPythagoreanTriple (integers){
   return x ** 2 + y ** 2 == z ** 2
   };
 
-const litres = (time) => {
-  Math.floor(time * 0.5)
-};
+
 
 litres = time => Math.floor(time * 0.5);
 
