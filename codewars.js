@@ -1375,7 +1375,9 @@ function rentalCarCost(d) {
   };
 
 
-
+function checkForFactor(base,factor){
+  return base % factor === 0
+};
 
 function isToday(date){
   return new Date().toDateString() === date.toDateString();
