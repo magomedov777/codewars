@@ -1309,9 +1309,7 @@ function countSquares(cuts){
 
 countSquares = cuts => cuts === 0 ? 1 : 6 * cuts * cuts + 2;
 
-function getAge(inputString){
-  return parseInt(inputString);
-};
+
 
 getAge = inputString => parseInt(inputString);
 
