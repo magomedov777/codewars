@@ -360,12 +360,7 @@ function distinct(a) {
 
 distinct = a => [...new Set(a)];
 
-function first (arr, n = 1){
-    if(n == 0){
-      return [];
-    }else if(n > 0){
-      return arr.slice(0, n);
-    }};
+
 
 function monkeyCount(n) {
       return Array.from({length: n},(_,index) => index + 1)
