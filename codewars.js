@@ -48,7 +48,10 @@ function updateRecords(records, id, prop, value) {
   return records;
 }
 
-
+const myArray = [];
+  for (let i = 1; i < 6; i++) {
+  myArray.push(i);
+};
 
 function updateRecords(records, id, prop, value) {
   if (prop !== "tracks" && value !== "") {
