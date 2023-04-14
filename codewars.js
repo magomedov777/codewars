@@ -455,7 +455,13 @@ function buildString(...template){
 
 buildString = (...template) => `I like ${template.join(', ')}!`; 
 
-
+function createArray(number){
+  var newArray = [];
+  for(var counter = 1; counter <= number; counter++){
+     newArray.push(counter);
+}
+  return newArray;
+};
 
 function Warrior(n){
   let name = n;  
