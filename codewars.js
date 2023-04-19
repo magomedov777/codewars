@@ -505,7 +505,6 @@ function smash (words) {
   return words.join(' ')
 };
 
-smash = words => words.join(' ');
 
 function sum (numbers) {
   return numbers.reduce((a,b) => a + b, 0)
