@@ -910,6 +910,7 @@ function isDivisible(n, x, y) {
 
 isDivisible = (n, x, y) => n % x === 0 && n % y === 0 ? true : false;  
 
+sumStr = (a,b) => (+a + +b).toString();
 
 function sumStr(a,b){
   return (+a + +b).toString();
