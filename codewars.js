@@ -1136,9 +1136,7 @@ function squareOrSquareRoot(array){
   array.map(el => Math.sqrt(el) % 1 ? el * el : Math.sqrt(el));
 };
 
-function min(list){
-  return Math.min(...list);
-};
+
 
 function max(list){
   return Math.max(...list);
