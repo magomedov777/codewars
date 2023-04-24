@@ -1229,7 +1229,13 @@ const hotpo = function(n){
 
 hotpo = n => n === 1 ? 0 : 1 + hotpo(n % 2 ? (n * 3 + 1) : n / 2);
 
+function none(arr, fun){
+  return !arr.some(fun)
+};
 
+none = (arr, fun) => !arr.some(fun);
+
+stringToNumber = str => Number(str);
 
 function stringToNumber(str){
   return Number(str);
