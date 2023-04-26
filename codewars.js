@@ -1570,7 +1570,6 @@ function nameShuffler (str){
   return str.split(' ').reverse().join(' ');
 };
 
-nameShuffler = str => str.split(' ').reverse().join(' ');
 
 sumArray = array => array ? array.sort((a, b) => a - b).slice(1,-1).reduce((x, y) => x + y, 0) : 0;
 
@@ -1584,7 +1583,7 @@ function odd(values){
   return values.filter(el => el % 2)
 };
 
-odds = (values) => values.filter(el => el % 2)
+const newOdds = (values) => values.filter(el => el % 2)
 
 
 
