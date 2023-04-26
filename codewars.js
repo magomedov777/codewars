@@ -1584,6 +1584,7 @@ function odd(values){
   return values.filter(el => el % 2)
 };
 
+odds = (values) => values.filter(el => el % 2)
 
 
 
