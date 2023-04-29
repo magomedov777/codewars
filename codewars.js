@@ -1586,10 +1586,7 @@ function odd(values){
 
 const newOdds = (values) => values.filter(el => el % 2);
 
-const arr = [1, 2, 3, 4, 5, 6, 7]
-for (let i = 0; i < arr.length; i++) {
-  const element = array[i];
-}
+
 
 
 
