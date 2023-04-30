@@ -961,7 +961,6 @@ function oddCount(n){
   Math.floor(n / 2)
 };
 
-removeChar = str => str.slice(1, -1);
 
 function removeChar(str){
   return str.slice(1, -1);
