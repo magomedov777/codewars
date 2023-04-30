@@ -893,7 +893,6 @@ function problem (x){
       return "Error"
 };
 
-problem = x => typeof(x) === "number" ? x * 50 + 6 : "Error";
 
 function sayHello( name, city, state ) {
   return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
