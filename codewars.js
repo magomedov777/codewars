@@ -1020,7 +1020,6 @@ function bonusTime(salary, bonus) {
      return `£${salary}`
      };
    
-bonusTime = (salary, bonus) => bonus === true ? `£${salary * 10}` : `£${salary}`;
 
 function reverseList(list) {
     return list.reverse()
