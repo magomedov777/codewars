@@ -1583,13 +1583,8 @@ function odd(values){
   return values.filter(el => el % 2)
 };
 
-const newOdds = (values) => values.filter(el => el % 2);
 
 const enough = (cap, on, wait) => on + wait > cap ?  on + wait - cap : 0;
-
-
-
-
 
 
 
