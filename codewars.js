@@ -1585,6 +1585,7 @@ function odd(values){
 
 const newOdds = (values) => values.filter(el => el % 2);
 
+const enough = (cap, on, wait) => on + wait > cap ?  on + wait - cap : 0;
 
 
 
