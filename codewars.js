@@ -1595,6 +1595,8 @@ function enough(cap, on, wait){
   };
 };
 
+addLength = str => str.split(' ').map(el => `${el} ${el.length}`);
+
 
 
 
