@@ -1057,6 +1057,7 @@ Math.round = number => number - parseInt(number) >= 0.5 ? parseInt(number) + 1 :
 
 Math.ceil = number => parseInt(number) === number ? number : parseInt(number) + 1; 
 
+Math.floor = number => parseInt(number);
 
 squareSum = numbers => numbers.map(a => a * a).reduce((prev, curr) => prev + curr, 0);
 
