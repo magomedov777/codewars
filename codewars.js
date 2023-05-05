@@ -1605,6 +1605,7 @@ function shortenToDate(longDate) {
   return longDate.split(',')[0]
 };
 
+shortenToDate = longDate => longDate.split(',')[0];
 
 function firstNonConsecutive (arr) {
   for(let i = 1; i < arr.length; i++)
