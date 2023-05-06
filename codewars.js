@@ -1579,7 +1579,9 @@ function correct(str){
   return str.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I');
 };
 
-
+function odd(values){
+  return values.filter(el => el % 2)
+};
 
 const newOdds = (values) => values.filter(el => el % 2);
 
