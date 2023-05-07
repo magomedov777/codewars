@@ -1428,7 +1428,14 @@ function moveZeros(arr){
 
 alphanumeric = string => /[a-zA-z0-9]/g.test(string)&&!/[\s_!]/.test(string);
 
-
+function zeros (n) {
+  var num = 0;
+  while(n > 0){
+    n = Math.floor(n / 5); 
+    num += n
+  }
+  return num
+};
 
 function incrementString (strng) {
   return strng.replace(/([0-8]|\d?9+)?$/, (x) => x ? + x + 1 : 1);
