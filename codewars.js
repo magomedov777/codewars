@@ -1426,6 +1426,7 @@ function moveZeros(arr){
   return arr.reduceRight((acc,val) => val === 0 ? [...acc,val] : [val, ...acc], []);
 };
 
+alphanumeric = string => /[a-zA-z0-9]/g.test(string)&&!/[\s_!]/.test(string);
 
 function zeros (n) {
   var num = 0;
