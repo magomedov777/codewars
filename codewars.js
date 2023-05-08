@@ -213,12 +213,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     return hisOld
 };
 
-function pillars (numPill, dist, width){
-  if(numPill < 2){
-    return 0;
-  } 
-    return numPill * ((dist * 100) + width) - (width * 2) - (dist * 100)
-};
+
 
 pillars = (numPill, dist, width) => numPill < 2 ? 0 : numPill * ((dist * 100) + width) - (width * 2) - (dist * 100);
 
