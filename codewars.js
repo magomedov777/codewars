@@ -123,9 +123,7 @@ function whatday(num)
    return "Saturday"
  };
 
- function century(year) {
-  return Math.ceil(year / 100)
- };
+
 
  century = year => Math.ceil(year / 100);
 
