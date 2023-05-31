@@ -1543,6 +1543,7 @@ function vowelOne(s){
   return s.replace(/[^aeiou]/gi, '0').replace(/[^\d]/g, '1');
 };
 
+solution = (str, ending) => str.endsWith(ending);
 
 function solution(str, ending){
   return str.endsWith(ending);
