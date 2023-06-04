@@ -825,6 +825,7 @@ function twoHighest(arr) {
 
 twoHighest = arr => [...new Set(arr.sort((a,b) => b - a))].slice(0,2);
 
+remainder = (n, m) => n > m ? n % m : m % n;
 
 function remainder(n, m) {
   return n > m ? n % m : m % n;
