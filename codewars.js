@@ -687,7 +687,9 @@ power = (x, y) => x ** y;
 
 usdcny = usd => `${(usd * 6.75).toFixed(2)} Chinese Yuan`;
 
-
+function usdcny(usd){
+  return `${(usd * 6.75).toFixed(2)} Chinese Yuan`;
+};
 
 function strCount(str, letter){  
   return str.split(letter).length - 1
