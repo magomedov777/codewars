@@ -191,7 +191,6 @@ function multipleOfIndex(array){
   return array.filter((element, index) => element % index == 0);
 };
 
-multipleOfIndex = arr => arr.filter((e, i) => e % i == 0); 
 
 function check(a, x){
   return a.includes(x)
