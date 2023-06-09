@@ -387,9 +387,7 @@ function makeUpperCase(str){
 
 repeatStr = (n, s) => s.repeat(n);
 
-function repeatStr(n, s){
-  return s.repeat(n);
-};
+
 
 const removeExclamationMarks = s => s.replace(/\!/g, '');
 
