@@ -1615,11 +1615,7 @@ function firstNonConsecutive (arr) {
   return null
 };
 
-class SmallestIntegerFinder {
-  findSmallestInt(args) {
-    return Math.min(...args)
-  }
-};
+
 
 
 
