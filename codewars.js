@@ -1635,11 +1635,11 @@ export function hero(bullets, dragons) {
   }
 }
 
-function stringToArray(s) {
+export function stringToArray(s) {
 	return s.split(' ');
 };
 
-const arrayPlusArray = (arr1, arr2) => {
+export const arrayPlusArray = (arr1, arr2) => {
   return [...arr1, ...arr2].reduce((acc, cur) => acc + cur)
 }
 
