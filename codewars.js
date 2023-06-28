@@ -1635,6 +1635,10 @@ export function hero(bullets, dragons) {
   }
 }
 
+export function stringToArray(s) {
+	return s.split(' ');
+};
+
 
 
 
