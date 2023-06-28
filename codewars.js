@@ -1621,6 +1621,8 @@ class SmallestIntegerFinder {
   }
 };
 
+let any = (arr, fun) => arr.some(fun)
+
 
 
 
