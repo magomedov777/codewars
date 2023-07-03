@@ -1587,7 +1587,13 @@ const newOdds = (values) => values.filter(el => el % 2);
 
 const enough = (cap, on, wait) => on + wait > cap ?  on + wait - cap : 0;
 
-
+function enough(cap, on, wait){
+  if(on + wait > cap){
+    return on + wait - cap
+  }else{
+    return 0
+  };
+};
 
 addLength = str => str.split(' ').map(el => `${el} ${el.length}`);
 
