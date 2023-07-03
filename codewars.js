@@ -1621,7 +1621,11 @@ class SmallestIntegerFinder {
   }
 };
 
+let any = (arr, fun) => arr.some(fun)
 
+function any (arr, fun) {
+  return arr.some(fun)
+} 
 
 export function hero(bullets, dragons) {
   if(bullets / 2 >= dragons){
