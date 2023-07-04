@@ -1252,6 +1252,7 @@ function hexToDec(hexString){
   return parseInt(hexString, 16)
 };
 
+hexToDec = hexString => parseInt(hexString, 16);
 
 function solve(arr){
 var array = arr.reduce((a,b) => (a[b] = a[b] + 1 || 1, a), {})
