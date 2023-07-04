@@ -1061,7 +1061,9 @@ Math.floor = number => parseInt(number);
 
 squareSum = numbers => numbers.map(a => a * a).reduce((prev, curr) => prev + curr, 0);
 
-
+function squareSum(numbers){
+  return numbers.map(a => a * a).reduce((prev, curr) => prev + curr, 0);
+};
 
 function nearestSq(n){
     return Math.pow(Math.round(Math.sqrt(n)) ,2);
