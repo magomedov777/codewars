@@ -748,7 +748,6 @@ function mystery() {
   return results;
 };
 
-mystery = (results = {sanity: 'Hello'}) => results;
 
 function Hero (name) {
   this.name = name || "Hero"
