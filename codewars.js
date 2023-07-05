@@ -279,6 +279,7 @@ function ensureQuestion(s) {
 
 ensureQuestion = s => s.endsWith('?') ? s : s = '?';
 
+const largest = (n, array) => array.sort((a,b) => a - b).slice(array.length - n);
 
 function largest(n, array){
   return array.sort((a,b) => a - b).slice(array.length - n);
