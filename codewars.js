@@ -373,7 +373,6 @@ function monkeyCount(n) {
 
 monkeyCount = n => Array.from({length: n}, (_,index) => index + 1);
 
-getAverage = marks => Math.floor(marks.reduce((a, b) => a + b) / marks.length);
 
 function getAverage(marks){
   return Math.floor(marks.reduce((a,b) => a + b) / marks.length);
