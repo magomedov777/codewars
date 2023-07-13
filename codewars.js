@@ -305,7 +305,6 @@ function invert(array) {
   return array.map(x => -x)
 };
 
-invert = array => array.map(x => -x);
 
 function grow(x){
   return x.reduce((a,b) => a * b)
