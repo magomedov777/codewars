@@ -249,7 +249,9 @@ const quarterOf = (month) => {
     return 4;
 };
 
-
+function typeValidation(variable, type) {
+  return typeof variable === type; 
+};
 
 typeValidation = (variable, type) => typeof variable === type;
 
