@@ -205,13 +205,7 @@ function joinStrings(string1, string2){
   return `${string1} ${string2}`;
 };
 
-function twiceAsOld(dadYearsOld, sonYearsOld) {
-  let hisOld = dadYearsOld - sonYearsOld * 2;
-  if(hisOld < 0){
-    return hisOld * (-1);
-  }
-    return hisOld
-};
+
 
 function pillars (numPill, dist, width){
   if(numPill < 2){
