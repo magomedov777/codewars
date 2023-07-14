@@ -379,6 +379,7 @@ function getAverage(marks){
   return Math.floor(marks.reduce((a,b) => a + b) / marks.length);
 };
 
+makeUpperCase = str => str.toUpperCase();
 
 function makeUpperCase(str){
   return str.toUpperCase();
