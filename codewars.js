@@ -846,6 +846,7 @@ function boolToWord( bool ){
   return "No"
 }
 
+boolToWord = bool => bool === true ? "Yes" : "No";
 
 function numberToString(num) {
   return num.toString()
