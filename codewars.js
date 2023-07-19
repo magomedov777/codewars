@@ -431,7 +431,6 @@ function positiveSum (arr){
          return sum;
      };
 
-printArray = array => array.join();
 
 function printArray(array){
   return array.join();
