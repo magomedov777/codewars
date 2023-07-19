@@ -717,7 +717,6 @@ function parseF(s){
   return isNaN(parseFloat(s)) ? null : parseFloat(s);
 };
 
-iceBrickVolume = (radius, bottleLength, rimLength) =>  (bottleLength - rimLength) * 2 * radius * radius;
 
 function iceBrickVolume(radius, bottleLength, rimLength){
   return (bottleLength - rimLength) * 2 * radius * radius;
