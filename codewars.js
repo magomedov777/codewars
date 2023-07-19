@@ -416,7 +416,6 @@ function removeEveryOther(arr){
   return arr.filter((_, index) => index % 2 == 0);
 };
 
-differenceInAges = ages => [Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)];
 
 function all( arr, fun ){
       return arr.every(fun)
