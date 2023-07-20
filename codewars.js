@@ -443,7 +443,9 @@ function stairsIn20(s){
 
 stairsIn20 = s => 20 * s.reduce((a, b) => a + b.reduce((c,d) => c + d, 0) ,0);
 
-
+function arr2bin(arr) {
+      return arr.reduce((a,b) => a + (typeof b == 'number' ? b : 0),0).toString(2)
+};
 
 arr2bin = arr => arr.reduce((a,b) => a + (typeof b == 'number' ? b : 0), 0).toString(2);
 
