@@ -541,6 +541,7 @@ function divisibleBy(numbers, divisor){
   return numbers.filter(a => a % divisor == 0)
   };
 
+divisibleBy = (numbers, divisor) => numbers.filter(a => a % divisor == 0);
 
 const isVow = a => a.map(x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x);
 
