@@ -781,7 +781,12 @@ const alphbt = ' abcdefghijklmnopqrstuvwxyz';
 position = letters => 'Position of alphabet: ' + [...alphbt].indexOf(letters)
 const alphbt = ' abcdefghijklmnopqrstuvwxyz';
 
-
+function combat(health, damage) {
+  if(damage > health){
+    return 0
+  }
+  return health - damage
+};
 
 combat = (health, damage) => damage > health ? 0 : health - damage;
 
