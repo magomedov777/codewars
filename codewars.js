@@ -600,7 +600,13 @@ function orderWeight(strng) {
   return strng.split(' ').sort(add).join(' ');
 };
 
-
+function alternate(n, firstValue, secondValue){
+  let arr = []
+  for(let i = 0; i < n; i++){
+    arr.push(i % 2 === 0 ? firstValue : secondValue)
+  }
+  return arr;
+};
 
 function rainAmount(mm){
   if (mm < 40) {
