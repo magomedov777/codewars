@@ -773,7 +773,10 @@ function simpleMultiplication(number){
   return number * 9
 };
 
-
+function position (letters){
+const alphbt = ' abcdefghijklmnopqrstuvwxyz';
+  return 'Position of alphabet: ' + [...alphbt].indexOf(letters)
+ };
 
 position = letters => 'Position of alphabet: ' + [...alphbt].indexOf(letters)
 const alphbt = ' abcdefghijklmnopqrstuvwxyz';
