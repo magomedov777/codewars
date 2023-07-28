@@ -1108,6 +1108,7 @@ const litres = (time) => {
   Math.floor(time * 0.5)
 };
 
+litres = time => Math.floor(time * 0.5);
 
 function remove (string) {
   return string.replace(/!$/, "")
