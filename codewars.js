@@ -1116,7 +1116,6 @@ function remove (string) {
 
 remove = string => string.replace(/!$/, "");
 
-add = (a, b) => a == b ? true : false;
 
 function add(a, b){
   return a == b ? true : false;
