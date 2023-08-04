@@ -38,7 +38,7 @@ function zipWith(fn,a0,a1) {
 function updateRecords(records, id, prop, value) {
   if (prop !== "tracks" && value !== "") {
     records[id][prop] = value;
-  } else if (prop === "tracks" && value !== "" && records[id].hasOwnProperty("tracks") === false) {
+  } else if (prop === "tracks" && value !== "" && records[id].("tracks") === false) {
     records[id][prop] = [value];
   } else if (prop === "tracks" && value !== "") {
     records[id][prop].push(value);
