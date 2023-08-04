@@ -410,7 +410,7 @@ function countBy(x, n) {
         return z;
     };
 
-removeEveryOther = arr => ((_, index) => index % 2 == 0);
+removeEveryOther = arr => arr.filter((_, index) => index % 2 == 0);
 
 function removeEveryOther(arr){
   return arr.filter((_, index) => index % 2 == 0);
