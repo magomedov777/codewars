@@ -628,7 +628,6 @@ function correctTail(body, tail){
   return body[body.length - 1] == tail;
  };
 
-correctTail = (body, tail) => body[body.length - 1] == tail;
 
 function howManyDalmatians(number){
   let dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
