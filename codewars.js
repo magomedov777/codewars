@@ -26,14 +26,7 @@ function warnTheSheep(queue) {
   return position === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${ position }! You are about to be eaten by a wolf!`;
 };
 
-function zipWith(fn,a0,a1) {
-  let arr = [];
-  const short = Math.min(a0.length, a1.length); 
-  for (let i=0;i<short;i++){
-    arr.push(fn(a0[i],a1[i]))
-  }
-  return arr
-};
+
 
 function updateRecords(records, id, prop, value) {
   if (prop !== "tracks" && value !== "") {
