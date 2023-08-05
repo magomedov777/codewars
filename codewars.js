@@ -766,7 +766,12 @@ solution = str => [...str].reverse().join("");
 
 simpleMultiplication = number => number % 2===0 ? number * 8 : number * 9;
 
-
+function simpleMultiplication(number){
+  if(number % 2 === 0){
+    return number * 8
+  }
+  return number * 9
+};
 
 function position (letters){
 const alphbt = ' abcdefghijklmnopqrstuvwxyz';
