@@ -778,8 +778,7 @@ const alphbt = ' abcdefghijklmnopqrstuvwxyz';
   return 'Position of alphabet: ' + [...alphbt].indexOf(letters)
  };
 
-position = letters => 'Position of alphabet: ' + [...alphbt].indexOf(letters)
-const alphbt = ' abcdefghijklmnopqrstuvwxyz';
+
 
 function combat(health, damage) {
   if(damage > health){
